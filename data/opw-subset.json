@@ -1,0 +1,3431 @@
+{
+  "source": "Consumer Council Online Price Watch (OPW) open data",
+  "sourceUrl": "https://online-price-watch.consumer.org.hk/opw/opendata/pricewatch.json",
+  "dataGovHint": "DATA.GOV.HK / 消費者委員會",
+  "attribution": "參考價來自消費者委員會「網上價格監察站／格價資訊通」（OPW）開放數據，亦可經 DATA.GOV.HK 取得。價格為監察參考，不代表門市即時有貨或最終成交價。",
+  "dataAsOf": "2026-10-11 13:00 HKT",
+  "extractedAt": "2026-10-12 HKT",
+  "roles": [
+    {
+      "id": "milk_fresh",
+      "label": "鮮牛奶／全脂牛奶（做乳酪）",
+      "products": [
+        {
+          "code": "P000000167",
+          "brand": "雀巢牛奶公司",
+          "name": "鮮牛奶 236毫升",
+          "nameEn": "Fresh Milk 236mL",
+          "cat2": "牛奶 / 牛奶飲品",
+          "cat3": "低溫冷藏鮮奶/牛奶飲品",
+          "prices": [
+            {
+              "supermarketCode": "WELLCOME",
+              "store": "惠康",
+              "price": 6.0
+            },
+            {
+              "supermarketCode": "PARKNSHOP",
+              "store": "百佳",
+              "price": 10.5
+            },
+            {
+              "supermarketCode": "JASONS",
+              "store": "Jason's",
+              "price": 6.0
+            },
+            {
+              "supermarketCode": "AEON",
+              "store": "AEON",
+              "price": 6.0
+            }
+          ],
+          "minPrice": 6.0,
+          "maxPrice": 10.5
+        },
+        {
+          "code": "P000000022",
+          "brand": "十字牌 十字奶",
+          "name": "純鮮奶 236毫升",
+          "nameEn": "Fresh Milk 236mL",
+          "cat2": "牛奶 / 牛奶飲品",
+          "cat3": "低溫冷藏鮮奶/牛奶飲品",
+          "prices": [
+            {
+              "supermarketCode": "WELLCOME",
+              "store": "惠康",
+              "price": 9.5
+            },
+            {
+              "supermarketCode": "PARKNSHOP",
+              "store": "百佳",
+              "price": 8.5
+            },
+            {
+              "supermarketCode": "JASONS",
+              "store": "Jason's",
+              "price": 9.8
+            },
+            {
+              "supermarketCode": "AEON",
+              "store": "AEON",
+              "price": 6.9
+            }
+          ],
+          "minPrice": 6.9,
+          "maxPrice": 9.8
+        },
+        {
+          "code": "P000005271",
+          "brand": "每日鮮語",
+          "name": "高品質鮮牛奶 236毫升",
+          "nameEn": "Premium 100% Fresh Milk 236mL",
+          "cat2": "牛奶 / 牛奶飲品",
+          "cat3": "低溫冷藏鮮奶/牛奶飲品",
+          "prices": [
+            {
+              "supermarketCode": "WELLCOME",
+              "store": "惠康",
+              "price": 8.0
+            },
+            {
+              "supermarketCode": "PARKNSHOP",
+              "store": "百佳",
+              "price": 15.0
+            },
+            {
+              "supermarketCode": "JASONS",
+              "store": "Jason's",
+              "price": 8.5
+            }
+          ],
+          "minPrice": 8.0,
+          "maxPrice": 15.0
+        },
+        {
+          "code": "P000001855",
+          "brand": "Kumiai Dairies",
+          "name": "北海道特選3.6牛乳 (UHT牛奶) 迷你裝 200毫升",
+          "nameEn": "Hokkaido Specially Select 3.6 Milk - UHT Processed Whole Milk 200mL",
+          "cat2": "牛奶 / 牛奶飲品",
+          "cat3": "UHT常溫保鮮牛奶/牛奶飲品",
+          "prices": [
+            {
+              "supermarketCode": "WELLCOME",
+              "store": "惠康",
+              "price": 13.0
+            },
+            {
+              "supermarketCode": "PARKNSHOP",
+              "store": "百佳",
+              "price": 12.0
+            },
+            {
+              "supermarketCode": "JASONS",
+              "store": "Jason's",
+              "price": 14.0
+            },
+            {
+              "supermarketCode": "AEON",
+              "store": "AEON",
+              "price": 9.9
+            }
+          ],
+          "minPrice": 9.9,
+          "maxPrice": 14.0
+        },
+        {
+          "code": "P000003564",
+          "brand": "明治",
+          "name": "新鮮牛奶飲品 236毫升",
+          "nameEn": "Fresh Milk Beverage 236mL",
+          "cat2": "牛奶 / 牛奶飲品",
+          "cat3": "低溫冷藏鮮奶/牛奶飲品",
+          "prices": [
+            {
+              "supermarketCode": "WELLCOME",
+              "store": "惠康",
+              "price": 10.5
+            },
+            {
+              "supermarketCode": "PARKNSHOP",
+              "store": "百佳",
+              "price": 10.0
+            },
+            {
+              "supermarketCode": "JASONS",
+              "store": "Jason's",
+              "price": 11.0
+            },
+            {
+              "supermarketCode": "AEON",
+              "store": "AEON",
+              "price": 11.9
+            }
+          ],
+          "minPrice": 10.0,
+          "maxPrice": 11.9
+        },
+        {
+          "code": "P000005257",
+          "brand": "明治",
+          "name": "無乳糖牛奶飲品 200毫升",
+          "nameEn": "Lactose Free Milk Beverage 200mL",
+          "cat2": "牛奶 / 牛奶飲品",
+          "cat3": "低溫冷藏鮮奶/牛奶飲品",
+          "prices": [
+            {
+              "supermarketCode": "WELLCOME",
+              "store": "惠康",
+              "price": 14.0
+            },
+            {
+              "supermarketCode": "PARKNSHOP",
+              "store": "百佳",
+              "price": 11.0
+            },
+            {
+              "supermarketCode": "JASONS",
+              "store": "Jason's",
+              "price": 14.5
+            }
+          ],
+          "minPrice": 11.0,
+          "maxPrice": 14.5
+        },
+        {
+          "code": "P000005256",
+          "brand": "明治",
+          "name": "頂級鮮牛奶 236毫升",
+          "nameEn": "Premium Milk 236mL",
+          "cat2": "牛奶 / 牛奶飲品",
+          "cat3": "低溫冷藏鮮奶/牛奶飲品",
+          "prices": [
+            {
+              "supermarketCode": "WELLCOME",
+              "store": "惠康",
+              "price": 11.0
+            },
+            {
+              "supermarketCode": "PARKNSHOP",
+              "store": "百佳",
+              "price": 11.0
+            },
+            {
+              "supermarketCode": "JASONS",
+              "store": "Jason's",
+              "price": 11.5
+            },
+            {
+              "supermarketCode": "AEON",
+              "store": "AEON",
+              "price": 12.9
+            }
+          ],
+          "minPrice": 11.0,
+          "maxPrice": 12.9
+        },
+        {
+          "code": "P000002018",
+          "brand": "伊美",
+          "name": "瑞士特級牛奶 250毫升",
+          "nameEn": "Swiss Premium UHT Milk 250mL",
+          "cat2": "牛奶 / 牛奶飲品",
+          "cat3": "UHT常溫保鮮牛奶/牛奶飲品",
+          "prices": [
+            {
+              "supermarketCode": "WELLCOME",
+              "store": "惠康",
+              "price": 12.5
+            },
+            {
+              "supermarketCode": "PARKNSHOP",
+              "store": "百佳",
+              "price": 12.5
+            },
+            {
+              "supermarketCode": "JASONS",
+              "store": "Jason's",
+              "price": 13.0
+            },
+            {
+              "supermarketCode": "AEON",
+              "store": "AEON",
+              "price": 12.9
+            }
+          ],
+          "minPrice": 12.5,
+          "maxPrice": 13.0
+        },
+        {
+          "code": "P000001127",
+          "brand": "Rakunou Mothers (Kumamoto Dairy)",
+          "name": "九州大阿蘇牛乳/牛奶 (UHT牛奶) 1公升",
+          "nameEn": "Oaso Milk - UHT Long Life Milk 1L",
+          "cat2": "牛奶 / 牛奶飲品",
+          "cat3": "UHT常溫保鮮牛奶/牛奶飲品",
+          "prices": [
+            {
+              "supermarketCode": "WELLCOME",
+              "store": "惠康",
+              "price": 20.0
+            },
+            {
+              "supermarketCode": "JASONS",
+              "store": "Jason's",
+              "price": 20.0
+            },
+            {
+              "supermarketCode": "AEON",
+              "store": "AEON",
+              "price": 19.9
+            }
+          ],
+          "minPrice": 19.9,
+          "maxPrice": 20.0
+        },
+        {
+          "code": "P000001000",
+          "brand": "Kumiai Dairies",
+          "name": "北海道特選3.6牛乳 (UHT牛奶) 1公升",
+          "nameEn": "Hokkaido Specially Select 3.6 Milk - UHT Processed Whole Milk 1L",
+          "cat2": "牛奶 / 牛奶飲品",
+          "cat3": "UHT常溫保鮮牛奶/牛奶飲品",
+          "prices": [
+            {
+              "supermarketCode": "WELLCOME",
+              "store": "惠康",
+              "price": 33.5
+            },
+            {
+              "supermarketCode": "PARKNSHOP",
+              "store": "百佳",
+              "price": 30.0
+            },
+            {
+              "supermarketCode": "JASONS",
+              "store": "Jason's",
+              "price": 33.5
+            },
+            {
+              "supermarketCode": "AEON",
+              "store": "AEON",
+              "price": 22.9
+            }
+          ],
+          "minPrice": 22.9,
+          "maxPrice": 33.5
+        },
+        {
+          "code": "P000001091",
+          "brand": "保利",
+          "name": "純牛奶 1公升",
+          "nameEn": "UHT Pure Milk 1L",
+          "cat2": "牛奶 / 牛奶飲品",
+          "cat3": "UHT常溫保鮮牛奶/牛奶飲品",
+          "prices": [
+            {
+              "supermarketCode": "WELLCOME",
+              "store": "惠康",
+              "price": 22.9
+            },
+            {
+              "supermarketCode": "PARKNSHOP",
+              "store": "百佳",
+              "price": 28.9
+            },
+            {
+              "supermarketCode": "JASONS",
+              "store": "Jason's",
+              "price": 25.0
+            }
+          ],
+          "minPrice": 22.9,
+          "maxPrice": 28.9
+        },
+        {
+          "code": "P000003054",
+          "brand": "黑白純牛奶",
+          "name": "全脂牛奶 1公升",
+          "nameEn": "UHT Pure Milk 1L",
+          "cat2": "牛奶 / 牛奶飲品",
+          "cat3": "UHT常溫保鮮牛奶/牛奶飲品",
+          "prices": [
+            {
+              "supermarketCode": "WELLCOME",
+              "store": "惠康",
+              "price": 23.0
+            },
+            {
+              "supermarketCode": "PARKNSHOP",
+              "store": "百佳",
+              "price": 23.0
+            },
+            {
+              "supermarketCode": "JASONS",
+              "store": "Jason's",
+              "price": 24.0
+            }
+          ],
+          "minPrice": 23.0,
+          "maxPrice": 24.0
+        },
+        {
+          "code": "P000002592",
+          "brand": "澳洲哈維",
+          "name": "Free Range 全脂牛奶 1公升",
+          "nameEn": "UHT Free Range Full Cream Milk 1L",
+          "cat2": "牛奶 / 牛奶飲品",
+          "cat3": "UHT常溫保鮮牛奶/牛奶飲品",
+          "prices": [
+            {
+              "supermarketCode": "WELLCOME",
+              "store": "惠康",
+              "price": 23.5
+            },
+            {
+              "supermarketCode": "PARKNSHOP",
+              "store": "百佳",
+              "price": 23.9
+            },
+            {
+              "supermarketCode": "JASONS",
+              "store": "Jason's",
+              "price": 25.0
+            }
+          ],
+          "minPrice": 23.5,
+          "maxPrice": 25.0
+        },
+        {
+          "code": "P000002590",
+          "brand": "澳洲哈維",
+          "name": "無乳糖牛奶 1公升",
+          "nameEn": "UHT Lactose Free Milk 1L",
+          "cat2": "牛奶 / 牛奶飲品",
+          "cat3": "UHT常溫保鮮牛奶/牛奶飲品",
+          "prices": [
+            {
+              "supermarketCode": "WELLCOME",
+              "store": "惠康",
+              "price": 24.5
+            },
+            {
+              "supermarketCode": "PARKNSHOP",
+              "store": "百佳",
+              "price": 23.9
+            },
+            {
+              "supermarketCode": "JASONS",
+              "store": "Jason's",
+              "price": 24.5
+            }
+          ],
+          "minPrice": 23.9,
+          "maxPrice": 24.5
+        },
+        {
+          "code": "P000000640",
+          "brand": "雀巢牛奶公司",
+          "name": "鮮牛奶 946毫升",
+          "nameEn": "Fresh Milk 946mL",
+          "cat2": "牛奶 / 牛奶飲品",
+          "cat3": "低溫冷藏鮮奶/牛奶飲品",
+          "prices": [
+            {
+              "supermarketCode": "WELLCOME",
+              "store": "惠康",
+              "price": 29.0
+            },
+            {
+              "supermarketCode": "PARKNSHOP",
+              "store": "百佳",
+              "price": 28.0
+            },
+            {
+              "supermarketCode": "JASONS",
+              "store": "Jason's",
+              "price": 29.0
+            },
+            {
+              "supermarketCode": "AEON",
+              "store": "AEON",
+              "price": 24.0
+            }
+          ],
+          "minPrice": 24.0,
+          "maxPrice": 29.0
+        },
+        {
+          "code": "P000002036",
+          "brand": "北海道日高",
+          "name": "北海道富良野特選3.7牛乳 (UHT牛奶) 1公升",
+          "nameEn": "Hokkaido Furano Specially Select 3.7 Milk - UHT Processed Whole Milk 1L",
+          "cat2": "牛奶 / 牛奶飲品",
+          "cat3": "UHT常溫保鮮牛奶/牛奶飲品",
+          "prices": [
+            {
+              "supermarketCode": "WELLCOME",
+              "store": "惠康",
+              "price": 25.0
+            },
+            {
+              "supermarketCode": "PARKNSHOP",
+              "store": "百佳",
+              "price": 26.9
+            },
+            {
+              "supermarketCode": "JASONS",
+              "store": "Jason's",
+              "price": 26.9
+            },
+            {
+              "supermarketCode": "AEON",
+              "store": "AEON",
+              "price": 25.9
+            }
+          ],
+          "minPrice": 25.0,
+          "maxPrice": 26.9
+        },
+        {
+          "code": "P000001221",
+          "brand": "伊美",
+          "name": "瑞士特級牛奶 1公升",
+          "nameEn": "Swiss Premium UHT Milk 1L",
+          "cat2": "牛奶 / 牛奶飲品",
+          "cat3": "UHT常溫保鮮牛奶/牛奶飲品",
+          "prices": [
+            {
+              "supermarketCode": "WELLCOME",
+              "store": "惠康",
+              "price": 26.0
+            },
+            {
+              "supermarketCode": "PARKNSHOP",
+              "store": "百佳",
+              "price": 29.9
+            },
+            {
+              "supermarketCode": "JASONS",
+              "store": "Jason's",
+              "price": 25.0
+            },
+            {
+              "supermarketCode": "AEON",
+              "store": "AEON",
+              "price": 39.9
+            }
+          ],
+          "minPrice": 25.0,
+          "maxPrice": 39.9
+        },
+        {
+          "code": "P000003879",
+          "brand": "Meadows",
+          "name": "全脂奶 (常溫) 1公升",
+          "nameEn": "UHT Full Cream Milk 1 LT",
+          "cat2": "牛奶 / 牛奶飲品",
+          "cat3": "UHT常溫保鮮牛奶/牛奶飲品",
+          "prices": [
+            {
+              "supermarketCode": "WELLCOME",
+              "store": "惠康",
+              "price": 25.5
+            },
+            {
+              "supermarketCode": "JASONS",
+              "store": "Jason's",
+              "price": 25.5
+            }
+          ],
+          "minPrice": 25.5,
+          "maxPrice": 25.5
+        },
+        {
+          "code": "P000005258",
+          "brand": "明治",
+          "name": "100%鮮牛奶 946毫升",
+          "nameEn": "100% Fresh Milk 946mL",
+          "cat2": "牛奶 / 牛奶飲品",
+          "cat3": "低溫冷藏鮮奶/牛奶飲品",
+          "prices": [
+            {
+              "supermarketCode": "WELLCOME",
+              "store": "惠康",
+              "price": 26.0
+            },
+            {
+              "supermarketCode": "PARKNSHOP",
+              "store": "百佳",
+              "price": 26.0
+            },
+            {
+              "supermarketCode": "JASONS",
+              "store": "Jason's",
+              "price": 26.0
+            },
+            {
+              "supermarketCode": "AEON",
+              "store": "AEON",
+              "price": 25.9
+            }
+          ],
+          "minPrice": 25.9,
+          "maxPrice": 26.0
+        },
+        {
+          "code": "P000000886",
+          "brand": "十字牌 十字奶",
+          "name": "純鮮奶 946毫升",
+          "nameEn": "Fresh Milk 946mL",
+          "cat2": "牛奶 / 牛奶飲品",
+          "cat3": "低溫冷藏鮮奶/牛奶飲品",
+          "prices": [
+            {
+              "supermarketCode": "WELLCOME",
+              "store": "惠康",
+              "price": 26.0
+            },
+            {
+              "supermarketCode": "PARKNSHOP",
+              "store": "百佳",
+              "price": 26.5
+            },
+            {
+              "supermarketCode": "JASONS",
+              "store": "Jason's",
+              "price": 26.0
+            },
+            {
+              "supermarketCode": "AEON",
+              "store": "AEON",
+              "price": 25.9
+            }
+          ],
+          "minPrice": 25.9,
+          "maxPrice": 26.5
+        },
+        {
+          "code": "P000005253",
+          "brand": "維記",
+          "name": "無乳糖鮮牛奶 946毫升",
+          "nameEn": "Lactose Free Fresh Milk 946mL",
+          "cat2": "牛奶 / 牛奶飲品",
+          "cat3": "低溫冷藏鮮奶/牛奶飲品",
+          "prices": [
+            {
+              "supermarketCode": "WELLCOME",
+              "store": "惠康",
+              "price": 26.0
+            },
+            {
+              "supermarketCode": "PARKNSHOP",
+              "store": "百佳",
+              "price": 26.0
+            },
+            {
+              "supermarketCode": "JASONS",
+              "store": "Jason's",
+              "price": 26.0
+            },
+            {
+              "supermarketCode": "AEON",
+              "store": "AEON",
+              "price": 29.9
+            }
+          ],
+          "minPrice": 26.0,
+          "maxPrice": 29.9
+        },
+        {
+          "code": "P000005272",
+          "brand": "每日鮮語",
+          "name": "高品質鮮牛奶 950毫升",
+          "nameEn": "Premium 100% Fresh Milk 950mL",
+          "cat2": "牛奶 / 牛奶飲品",
+          "cat3": "低溫冷藏鮮奶/牛奶飲品",
+          "prices": [
+            {
+              "supermarketCode": "WELLCOME",
+              "store": "惠康",
+              "price": 26.0
+            },
+            {
+              "supermarketCode": "PARKNSHOP",
+              "store": "百佳",
+              "price": 26.0
+            },
+            {
+              "supermarketCode": "JASONS",
+              "store": "Jason's",
+              "price": 28.0
+            }
+          ],
+          "minPrice": 26.0,
+          "maxPrice": 28.0
+        },
+        {
+          "code": "P000005260",
+          "brand": "明治",
+          "name": "無乳糖牛奶飲品 946毫升",
+          "nameEn": "Lactose Free Milk Beverage 946mL",
+          "cat2": "牛奶 / 牛奶飲品",
+          "cat3": "低溫冷藏鮮奶/牛奶飲品",
+          "prices": [
+            {
+              "supermarketCode": "WELLCOME",
+              "store": "惠康",
+              "price": 30.0
+            },
+            {
+              "supermarketCode": "PARKNSHOP",
+              "store": "百佳",
+              "price": 30.0
+            },
+            {
+              "supermarketCode": "JASONS",
+              "store": "Jason's",
+              "price": 32.0
+            },
+            {
+              "supermarketCode": "AEON",
+              "store": "AEON",
+              "price": 27.9
+            }
+          ],
+          "minPrice": 27.9,
+          "maxPrice": 32.0
+        },
+        {
+          "code": "P000005259",
+          "brand": "明治",
+          "name": "頂級鮮牛奶 946毫升",
+          "nameEn": "Premium Quality Milk 946mL",
+          "cat2": "牛奶 / 牛奶飲品",
+          "cat3": "低溫冷藏鮮奶/牛奶飲品",
+          "prices": [
+            {
+              "supermarketCode": "WELLCOME",
+              "store": "惠康",
+              "price": 33.0
+            },
+            {
+              "supermarketCode": "JASONS",
+              "store": "Jason's",
+              "price": 33.0
+            },
+            {
+              "supermarketCode": "AEON",
+              "store": "AEON",
+              "price": 29.9
+            }
+          ],
+          "minPrice": 29.9,
+          "maxPrice": 33.0
+        },
+        {
+          "code": "P000002497",
+          "brand": "蘭特",
+          "name": "高溫滅菌全脂奶 1公升",
+          "nameEn": "UHT Whole Milk 1L",
+          "cat2": "牛奶 / 牛奶飲品",
+          "cat3": "UHT常溫保鮮牛奶/牛奶飲品",
+          "prices": [
+            {
+              "supermarketCode": "PARKNSHOP",
+              "store": "百佳",
+              "price": 29.9
+            }
+          ],
+          "minPrice": 29.9,
+          "maxPrice": 29.9
+        }
+      ]
+    },
+    {
+      "id": "milk_lowfat",
+      "label": "低脂／脱脂牛奶",
+      "products": [
+        {
+          "code": "P000000905",
+          "brand": "雀巢牛奶公司",
+          "name": "脫脂高鈣牛奶飲品 236毫升",
+          "nameEn": "Skimmed Hi-Calcium Milk Drink 236mL",
+          "cat2": "牛奶 / 牛奶飲品",
+          "cat3": "低溫冷藏鮮奶/牛奶飲品",
+          "prices": [
+            {
+              "supermarketCode": "WELLCOME",
+              "store": "惠康",
+              "price": 6.0
+            },
+            {
+              "supermarketCode": "PARKNSHOP",
+              "store": "百佳",
+              "price": 7.5
+            },
+            {
+              "supermarketCode": "JASONS",
+              "store": "Jason's",
+              "price": 6.0
+            }
+          ],
+          "minPrice": 6.0,
+          "maxPrice": 7.5
+        },
+        {
+          "code": "P000000632",
+          "brand": "雀巢牛奶公司",
+          "name": "高鈣低脂牛奶飲品 236毫升",
+          "nameEn": "Hi-Calcium Low Fat Milk Drink 236mL",
+          "cat2": "牛奶 / 牛奶飲品",
+          "cat3": "低溫冷藏鮮奶/牛奶飲品",
+          "prices": [
+            {
+              "supermarketCode": "WELLCOME",
+              "store": "惠康",
+              "price": 6.0
+            },
+            {
+              "supermarketCode": "PARKNSHOP",
+              "store": "百佳",
+              "price": 7.5
+            },
+            {
+              "supermarketCode": "JASONS",
+              "store": "Jason's",
+              "price": 6.0
+            }
+          ],
+          "minPrice": 6.0,
+          "maxPrice": 7.5
+        },
+        {
+          "code": "P000005265",
+          "brand": "維他",
+          "name": "高鈣脫脂牛奶飲品 236毫升",
+          "nameEn": "Hi-Calcium Skimmed Milk Beverage 236mL",
+          "cat2": "牛奶 / 牛奶飲品",
+          "cat3": "低溫冷藏鮮奶/牛奶飲品",
+          "prices": [
+            {
+              "supermarketCode": "WELLCOME",
+              "store": "惠康",
+              "price": 8.5
+            },
+            {
+              "supermarketCode": "PARKNSHOP",
+              "store": "百佳",
+              "price": 7.5
+            },
+            {
+              "supermarketCode": "JASONS",
+              "store": "Jason's",
+              "price": 8.8
+            },
+            {
+              "supermarketCode": "AEON",
+              "store": "AEON",
+              "price": 6.9
+            }
+          ],
+          "minPrice": 6.9,
+          "maxPrice": 8.8
+        },
+        {
+          "code": "P000005255",
+          "brand": "明治",
+          "name": "高鈣脫脂牛奶 236毫升",
+          "nameEn": "Hi-Calcium Skimmed Milk Beverage 236mL",
+          "cat2": "牛奶 / 牛奶飲品",
+          "cat3": "低溫冷藏鮮奶/牛奶飲品",
+          "prices": [
+            {
+              "supermarketCode": "WELLCOME",
+              "store": "惠康",
+              "price": 10.0
+            },
+            {
+              "supermarketCode": "PARKNSHOP",
+              "store": "百佳",
+              "price": 10.0
+            },
+            {
+              "supermarketCode": "JASONS",
+              "store": "Jason's",
+              "price": 10.5
+            },
+            {
+              "supermarketCode": "AEON",
+              "store": "AEON",
+              "price": 10.9
+            }
+          ],
+          "minPrice": 10.0,
+          "maxPrice": 10.9
+        },
+        {
+          "code": "P000000904",
+          "brand": "雀巢牛奶公司",
+          "name": "脫脂高鈣牛奶飲品 946毫升",
+          "nameEn": "Skimmed Hi-Calcium Milk Drink 946mL",
+          "cat2": "牛奶 / 牛奶飲品",
+          "cat3": "低溫冷藏鮮奶/牛奶飲品",
+          "prices": [
+            {
+              "supermarketCode": "WELLCOME",
+              "store": "惠康",
+              "price": 24.5
+            },
+            {
+              "supermarketCode": "PARKNSHOP",
+              "store": "百佳",
+              "price": 18.0
+            },
+            {
+              "supermarketCode": "JASONS",
+              "store": "Jason's",
+              "price": 25.5
+            },
+            {
+              "supermarketCode": "AEON",
+              "store": "AEON",
+              "price": 19.9
+            }
+          ],
+          "minPrice": 18.0,
+          "maxPrice": 25.5
+        },
+        {
+          "code": "P000000888",
+          "brand": "雀巢牛奶公司",
+          "name": "高鈣低脂牛奶飲品 946毫升",
+          "nameEn": "Hi-Calcium Low Fat Milk Drink 946mL",
+          "cat2": "牛奶 / 牛奶飲品",
+          "cat3": "低溫冷藏鮮奶/牛奶飲品",
+          "prices": [
+            {
+              "supermarketCode": "WELLCOME",
+              "store": "惠康",
+              "price": 24.5
+            },
+            {
+              "supermarketCode": "PARKNSHOP",
+              "store": "百佳",
+              "price": 18.0
+            },
+            {
+              "supermarketCode": "JASONS",
+              "store": "Jason's",
+              "price": 25.5
+            }
+          ],
+          "minPrice": 18.0,
+          "maxPrice": 25.5
+        },
+        {
+          "code": "P000005266",
+          "brand": "維他",
+          "name": "高鈣脫脂牛奶飲品 946毫升",
+          "nameEn": "Hi-Calcium Skimmed Milk 946mL",
+          "cat2": "牛奶 / 牛奶飲品",
+          "cat3": "低溫冷藏鮮奶/牛奶飲品",
+          "prices": [
+            {
+              "supermarketCode": "WELLCOME",
+              "store": "惠康",
+              "price": 18.0
+            },
+            {
+              "supermarketCode": "PARKNSHOP",
+              "store": "百佳",
+              "price": 20.5
+            },
+            {
+              "supermarketCode": "JASONS",
+              "store": "Jason's",
+              "price": 18.0
+            },
+            {
+              "supermarketCode": "AEON",
+              "store": "AEON",
+              "price": 20.5
+            }
+          ],
+          "minPrice": 18.0,
+          "maxPrice": 20.5
+        },
+        {
+          "code": "P000000937",
+          "brand": "保利",
+          "name": "脫脂牛奶 1公升",
+          "nameEn": "UHT Skimmed Milk 1L",
+          "cat2": "牛奶 / 牛奶飲品",
+          "cat3": "UHT常溫保鮮牛奶/牛奶飲品",
+          "prices": [
+            {
+              "supermarketCode": "WELLCOME",
+              "store": "惠康",
+              "price": 22.9
+            },
+            {
+              "supermarketCode": "PARKNSHOP",
+              "store": "百佳",
+              "price": 28.9
+            },
+            {
+              "supermarketCode": "JASONS",
+              "store": "Jason's",
+              "price": 25.0
+            }
+          ],
+          "minPrice": 22.9,
+          "maxPrice": 28.9
+        },
+        {
+          "code": "P000002593",
+          "brand": "澳洲哈維",
+          "name": "Free Range 脫脂牛奶 1公升",
+          "nameEn": "UHT Free Range Skim Milk 1L",
+          "cat2": "牛奶 / 牛奶飲品",
+          "cat3": "UHT常溫保鮮牛奶/牛奶飲品",
+          "prices": [
+            {
+              "supermarketCode": "WELLCOME",
+              "store": "惠康",
+              "price": 23.5
+            },
+            {
+              "supermarketCode": "PARKNSHOP",
+              "store": "百佳",
+              "price": 23.9
+            },
+            {
+              "supermarketCode": "JASONS",
+              "store": "Jason's",
+              "price": 25.0
+            }
+          ],
+          "minPrice": 23.5,
+          "maxPrice": 25.0
+        },
+        {
+          "code": "P000001927",
+          "brand": "明治",
+          "name": "高鈣脫脂牛奶 946毫升",
+          "nameEn": "Skimmed Milk 946mL",
+          "cat2": "牛奶 / 牛奶飲品",
+          "cat3": "低溫冷藏鮮奶/牛奶飲品",
+          "prices": [
+            {
+              "supermarketCode": "WELLCOME",
+              "store": "惠康",
+              "price": 25.0
+            },
+            {
+              "supermarketCode": "PARKNSHOP",
+              "store": "百佳",
+              "price": 28.0
+            }
+          ],
+          "minPrice": 25.0,
+          "maxPrice": 28.0
+        },
+        {
+          "code": "P000003881",
+          "brand": "Meadows",
+          "name": "脫脂奶 (常溫) 1公升",
+          "nameEn": "UHT Skimmed Milk 1 LT",
+          "cat2": "牛奶 / 牛奶飲品",
+          "cat3": "UHT常溫保鮮牛奶/牛奶飲品",
+          "prices": [
+            {
+              "supermarketCode": "WELLCOME",
+              "store": "惠康",
+              "price": 25.5
+            },
+            {
+              "supermarketCode": "JASONS",
+              "store": "Jason's",
+              "price": 25.5
+            }
+          ],
+          "minPrice": 25.5,
+          "maxPrice": 25.5
+        },
+        {
+          "code": "P000003880",
+          "brand": "Meadows",
+          "name": "高鈣低脂奶 (常溫) 1公升",
+          "nameEn": "UHT Hi-Calcium Low Fat 1 LT",
+          "cat2": "牛奶 / 牛奶飲品",
+          "cat3": "UHT常溫保鮮牛奶/牛奶飲品",
+          "prices": [
+            {
+              "supermarketCode": "WELLCOME",
+              "store": "惠康",
+              "price": 25.5
+            },
+            {
+              "supermarketCode": "JASONS",
+              "store": "Jason's",
+              "price": 25.5
+            }
+          ],
+          "minPrice": 25.5,
+          "maxPrice": 25.5
+        },
+        {
+          "code": "P000002577",
+          "brand": "保利",
+          "name": "低脂牛奶飲品 1公升",
+          "nameEn": "UHT Low Fat Milk 1L",
+          "cat2": "牛奶 / 牛奶飲品",
+          "cat3": "UHT常溫保鮮牛奶/牛奶飲品",
+          "prices": [
+            {
+              "supermarketCode": "PARKNSHOP",
+              "store": "百佳",
+              "price": 28.9
+            }
+          ],
+          "minPrice": 28.9,
+          "maxPrice": 28.9
+        },
+        {
+          "code": "P000000459",
+          "brand": "維他",
+          "name": "高鈣低脂牛奶飲品 250毫升 x 6",
+          "nameEn": "High Calcium Low Fat Milk Beverage 250mL x 6",
+          "cat2": "牛奶 / 牛奶飲品",
+          "cat3": "UHT常溫保鮮牛奶/牛奶飲品",
+          "prices": [
+            {
+              "supermarketCode": "WELLCOME",
+              "store": "惠康",
+              "price": 32.0
+            },
+            {
+              "supermarketCode": "PARKNSHOP",
+              "store": "百佳",
+              "price": 42.9
+            },
+            {
+              "supermarketCode": "JASONS",
+              "store": "Jason's",
+              "price": 32.0
+            },
+            {
+              "supermarketCode": "AEON",
+              "store": "AEON",
+              "price": 31.9
+            }
+          ],
+          "minPrice": 31.9,
+          "maxPrice": 42.9
+        },
+        {
+          "code": "P000001616",
+          "brand": "維記",
+          "name": "高鈣低脂牛奶飲品 1.5公升",
+          "nameEn": "Slimilk - Low Fat Hi-Ca Milk Drink 1.5L",
+          "cat2": "牛奶 / 牛奶飲品",
+          "cat3": "低溫冷藏鮮奶/牛奶飲品",
+          "prices": [
+            {
+              "supermarketCode": "PARKNSHOP",
+              "store": "百佳",
+              "price": 32.0
+            }
+          ],
+          "minPrice": 32.0,
+          "maxPrice": 32.0
+        },
+        {
+          "code": "P000003563",
+          "brand": "子母",
+          "name": "天然純牧 - 高鈣較低脂牛奶飲品 225毫升 x 6",
+          "nameEn": "PureFarm - High Calcium Less Fat Milk Beverage 225mL x 6",
+          "cat2": "牛奶 / 牛奶飲品",
+          "cat3": "UHT常溫保鮮牛奶/牛奶飲品",
+          "prices": [
+            {
+              "supermarketCode": "WELLCOME",
+              "store": "惠康",
+              "price": 33.0
+            },
+            {
+              "supermarketCode": "PARKNSHOP",
+              "store": "百佳",
+              "price": 35.0
+            },
+            {
+              "supermarketCode": "JASONS",
+              "store": "Jason's",
+              "price": 33.0
+            },
+            {
+              "supermarketCode": "AEON",
+              "store": "AEON",
+              "price": 34.9
+            }
+          ],
+          "minPrice": 33.0,
+          "maxPrice": 35.0
+        },
+        {
+          "code": "P000003882",
+          "brand": "Meadows",
+          "name": "高鈣低脂鮮牛奶飲品 1公升",
+          "nameEn": "High Calcium Low Fat Fresh Milk 1 LT",
+          "cat2": "牛奶 / 牛奶飲品",
+          "cat3": "低溫冷藏鮮奶/牛奶飲品",
+          "prices": [
+            {
+              "supermarketCode": "WELLCOME",
+              "store": "惠康",
+              "price": 38.0
+            },
+            {
+              "supermarketCode": "JASONS",
+              "store": "Jason's",
+              "price": 40.0
+            }
+          ],
+          "minPrice": 38.0,
+          "maxPrice": 40.0
+        },
+        {
+          "code": "P000003561",
+          "brand": "蒙牛",
+          "name": "低脂高鈣奶類飲品 250毫升 x 6",
+          "nameEn": "Low-Fat High-Calcium Milk Beverage 250mL x 6",
+          "cat2": "牛奶 / 牛奶飲品",
+          "cat3": "UHT常溫保鮮牛奶/牛奶飲品",
+          "prices": [
+            {
+              "supermarketCode": "PARKNSHOP",
+              "store": "百佳",
+              "price": 38.9
+            }
+          ],
+          "minPrice": 38.9,
+          "maxPrice": 38.9
+        },
+        {
+          "code": "P000000956",
+          "brand": "保利",
+          "name": "脫脂牛奶 1公升 x 3",
+          "nameEn": "UHT Skimmed Milk 1L x 3",
+          "cat2": "牛奶 / 牛奶飲品",
+          "cat3": "UHT常溫保鮮牛奶/牛奶飲品",
+          "prices": [
+            {
+              "supermarketCode": "WELLCOME",
+              "store": "惠康",
+              "price": 45.0
+            },
+            {
+              "supermarketCode": "PARKNSHOP",
+              "store": "百佳",
+              "price": 62.0
+            },
+            {
+              "supermarketCode": "JASONS",
+              "store": "Jason's",
+              "price": 45.0
+            },
+            {
+              "supermarketCode": "DCHFOOD",
+              "store": "DCH Food",
+              "price": 68.7
+            }
+          ],
+          "minPrice": 45.0,
+          "maxPrice": 68.7
+        },
+        {
+          "code": "P000000946",
+          "brand": "保利",
+          "name": "高鈣低脂牛奶飲品 1公升 x 3",
+          "nameEn": "UHT Hi-Calcium Low Fat Milk Beverage 1L x 3",
+          "cat2": "牛奶 / 牛奶飲品",
+          "cat3": "UHT常溫保鮮牛奶/牛奶飲品",
+          "prices": [
+            {
+              "supermarketCode": "WELLCOME",
+              "store": "惠康",
+              "price": 45.0
+            },
+            {
+              "supermarketCode": "PARKNSHOP",
+              "store": "百佳",
+              "price": 62.0
+            },
+            {
+              "supermarketCode": "JASONS",
+              "store": "Jason's",
+              "price": 45.0
+            },
+            {
+              "supermarketCode": "DCHFOOD",
+              "store": "DCH Food",
+              "price": 90.0
+            }
+          ],
+          "minPrice": 45.0,
+          "maxPrice": 90.0
+        }
+      ]
+    },
+    {
+      "id": "yogurt_plain",
+      "label": "原味／純／希臘式乳酪（菌種）",
+      "products": [
+        {
+          "code": "P000002934",
+          "brand": "雀巢牛奶公司",
+          "name": "高鈣低脂純乳酪 (原味) 130克",
+          "nameEn": "Hi Cal Low Fat Yoghurt - Natural (Plain) 130g",
+          "cat2": "芝士 / 乳酪 / 乳酸產品",
+          "cat3": "乳酪",
+          "prices": [
+            {
+              "supermarketCode": "WELLCOME",
+              "store": "惠康",
+              "price": 7.8
+            },
+            {
+              "supermarketCode": "PARKNSHOP",
+              "store": "百佳",
+              "price": 9.5
+            },
+            {
+              "supermarketCode": "AEON",
+              "store": "AEON",
+              "price": 5.9
+            }
+          ],
+          "minPrice": 5.9,
+          "maxPrice": 9.5
+        },
+        {
+          "code": "P000001517",
+          "brand": "雀巢牛奶公司",
+          "name": "低脂純乳酪 (不添加蔗糖) 475克",
+          "nameEn": "Natural Low Fat Plain Yoghurt 475g",
+          "cat2": "芝士 / 乳酪 / 乳酸產品",
+          "cat3": "乳酪",
+          "prices": [
+            {
+              "supermarketCode": "WELLCOME",
+              "store": "惠康",
+              "price": 23.0
+            },
+            {
+              "supermarketCode": "PARKNSHOP",
+              "store": "百佳",
+              "price": 22.0
+            },
+            {
+              "supermarketCode": "JASONS",
+              "store": "Jason's",
+              "price": 23.0
+            }
+          ],
+          "minPrice": 22.0,
+          "maxPrice": 23.0
+        },
+        {
+          "code": "P000002154",
+          "brand": "雀巢",
+          "name": "希臘式乳酪 475克",
+          "nameEn": "Greek Style Yogurt (Plain) 475g",
+          "cat2": "芝士 / 乳酪 / 乳酸產品",
+          "cat3": "乳酪",
+          "prices": [
+            {
+              "supermarketCode": "WELLCOME",
+              "store": "惠康",
+              "price": 38.9
+            },
+            {
+              "supermarketCode": "PARKNSHOP",
+              "store": "百佳",
+              "price": 49.0
+            }
+          ],
+          "minPrice": 38.9,
+          "maxPrice": 49.0
+        },
+        {
+          "code": "P000003089",
+          "brand": "Yeo Valley",
+          "name": "希臘式天然乳酪 450克",
+          "nameEn": "Greek Style Natural Yogurt 450g",
+          "cat2": "芝士 / 乳酪 / 乳酸產品",
+          "cat3": "乳酪",
+          "prices": [
+            {
+              "supermarketCode": "PARKNSHOP",
+              "store": "百佳",
+              "price": 48.0
+            },
+            {
+              "supermarketCode": "JASONS",
+              "store": "Jason's",
+              "price": 45.0
+            }
+          ],
+          "minPrice": 45.0,
+          "maxPrice": 48.0
+        },
+        {
+          "code": "P000002616",
+          "brand": "澳洲農協",
+          "name": "希臘式乳酪 500克",
+          "nameEn": "Greek Style Natural Yogurt 500g",
+          "cat2": "芝士 / 乳酪 / 乳酸產品",
+          "cat3": "乳酪",
+          "prices": [
+            {
+              "supermarketCode": "WELLCOME",
+              "store": "惠康",
+              "price": 63.0
+            },
+            {
+              "supermarketCode": "PARKNSHOP",
+              "store": "百佳",
+              "price": 55.0
+            },
+            {
+              "supermarketCode": "JASONS",
+              "store": "Jason's",
+              "price": 67.0
+            }
+          ],
+          "minPrice": 55.0,
+          "maxPrice": 67.0
+        },
+        {
+          "code": "P000002930",
+          "brand": "Bulla",
+          "name": "希臘式天然乳酪 1公斤",
+          "nameEn": "Greek Style Natural Yogurt 1kg",
+          "cat2": "芝士 / 乳酪 / 乳酸產品",
+          "cat3": "乳酪",
+          "prices": [
+            {
+              "supermarketCode": "PARKNSHOP",
+              "store": "百佳",
+              "price": 69.9
+            }
+          ],
+          "minPrice": 69.9,
+          "maxPrice": 69.9
+        }
+      ]
+    },
+    {
+      "id": "yogurt_fruit",
+      "label": "水果乳酪（配料／即食）",
+      "products": [
+        {
+          "code": "P000001177",
+          "brand": "雀巢牛奶公司",
+          "name": "高鈣低脂鮮果乳酪 (士多啤梨) 130克",
+          "nameEn": "Hi Cal Low Fat Fruit Yoghurt (Strawberry) 130g",
+          "cat2": "芝士 / 乳酪 / 乳酸產品",
+          "cat3": "乳酪",
+          "prices": [
+            {
+              "supermarketCode": "WELLCOME",
+              "store": "惠康",
+              "price": 7.8
+            },
+            {
+              "supermarketCode": "PARKNSHOP",
+              "store": "百佳",
+              "price": 9.5
+            },
+            {
+              "supermarketCode": "AEON",
+              "store": "AEON",
+              "price": 5.9
+            }
+          ],
+          "minPrice": 5.9,
+          "maxPrice": 9.5
+        },
+        {
+          "code": "P000001930",
+          "brand": "伊美",
+          "name": "瑞士特級低脂乳酪 - 芒果 100克",
+          "nameEn": "Swiss Premium Yogurt - Low Fat - Mango 100g",
+          "cat2": "芝士 / 乳酪 / 乳酸產品",
+          "cat3": "乳酪",
+          "prices": [
+            {
+              "supermarketCode": "WELLCOME",
+              "store": "惠康",
+              "price": 20.0
+            },
+            {
+              "supermarketCode": "PARKNSHOP",
+              "store": "百佳",
+              "price": 7.8
+            },
+            {
+              "supermarketCode": "JASONS",
+              "store": "Jason's",
+              "price": 20.0
+            },
+            {
+              "supermarketCode": "AEON",
+              "store": "AEON",
+              "price": 14.9
+            }
+          ],
+          "minPrice": 7.8,
+          "maxPrice": 20.0
+        },
+        {
+          "code": "P000000936",
+          "brand": "伊美",
+          "name": "瑞士特級低脂乳酪 - 草莓 100克",
+          "nameEn": "Swiss Premium Yogurt - Low Fat - Strawberry 100g",
+          "cat2": "芝士 / 乳酪 / 乳酸產品",
+          "cat3": "乳酪",
+          "prices": [
+            {
+              "supermarketCode": "WELLCOME",
+              "store": "惠康",
+              "price": 20.0
+            },
+            {
+              "supermarketCode": "PARKNSHOP",
+              "store": "百佳",
+              "price": 7.8
+            },
+            {
+              "supermarketCode": "JASONS",
+              "store": "Jason's",
+              "price": 20.0
+            },
+            {
+              "supermarketCode": "AEON",
+              "store": "AEON",
+              "price": 14.9
+            }
+          ],
+          "minPrice": 7.8,
+          "maxPrice": 20.0
+        },
+        {
+          "code": "P000001677",
+          "brand": "明治",
+          "name": "低脂乳酪 - 士多啤梨 135克",
+          "nameEn": "Low Fat Yoghurt with Strawberry 135g",
+          "cat2": "芝士 / 乳酪 / 乳酸產品",
+          "cat3": "乳酪",
+          "prices": [
+            {
+              "supermarketCode": "WELLCOME",
+              "store": "惠康",
+              "price": 10.0
+            },
+            {
+              "supermarketCode": "PARKNSHOP",
+              "store": "百佳",
+              "price": 8.5
+            },
+            {
+              "supermarketCode": "JASONS",
+              "store": "Jason's",
+              "price": 10.5
+            },
+            {
+              "supermarketCode": "AEON",
+              "store": "AEON",
+              "price": 8.9
+            }
+          ],
+          "minPrice": 8.5,
+          "maxPrice": 10.5
+        },
+        {
+          "code": "P000002799",
+          "brand": "明治",
+          "name": "低脂乳酪 - 椰果 135克",
+          "nameEn": "Low Fat Yoghurt with Nata De Coco 135g",
+          "cat2": "芝士 / 乳酪 / 乳酸產品",
+          "cat3": "乳酪",
+          "prices": [
+            {
+              "supermarketCode": "PARKNSHOP",
+              "store": "百佳",
+              "price": 8.5
+            },
+            {
+              "supermarketCode": "AEON",
+              "store": "AEON",
+              "price": 8.9
+            }
+          ],
+          "minPrice": 8.5,
+          "maxPrice": 8.9
+        },
+        {
+          "code": "P000002861",
+          "brand": "明治",
+          "name": "低脂乳酪 - 芒果 135克",
+          "nameEn": "Low Fat Yoghurt with Mango 135g",
+          "cat2": "芝士 / 乳酪 / 乳酸產品",
+          "cat3": "乳酪",
+          "prices": [
+            {
+              "supermarketCode": "WELLCOME",
+              "store": "惠康",
+              "price": 10.0
+            },
+            {
+              "supermarketCode": "PARKNSHOP",
+              "store": "百佳",
+              "price": 8.5
+            },
+            {
+              "supermarketCode": "JASONS",
+              "store": "Jason's",
+              "price": 10.5
+            },
+            {
+              "supermarketCode": "AEON",
+              "store": "AEON",
+              "price": 8.9
+            }
+          ],
+          "minPrice": 8.5,
+          "maxPrice": 10.5
+        },
+        {
+          "code": "P000001519",
+          "brand": "伊美",
+          "name": "瑞士特級乳酪 - 藍莓 1公斤",
+          "nameEn": "Swiss Premium Yogurt - Blueberry 1kg",
+          "cat2": "芝士 / 乳酪 / 乳酸產品",
+          "cat3": "乳酪",
+          "prices": [
+            {
+              "supermarketCode": "WELLCOME",
+              "store": "惠康",
+              "price": 93.0
+            },
+            {
+              "supermarketCode": "PARKNSHOP",
+              "store": "百佳",
+              "price": 95.0
+            }
+          ],
+          "minPrice": 93.0,
+          "maxPrice": 95.0
+        }
+      ]
+    },
+    {
+      "id": "honey",
+      "label": "蜜糖／蜂蜜",
+      "products": [
+        {
+          "code": "P000001960",
+          "brand": "囍 (雙喜)",
+          "name": "百花蜜 300克",
+          "nameEn": "Centifloral Honey 300g",
+          "cat2": "蜂蜜 / 蜜糖 / 糖漿",
+          "cat3": "蜂蜜 / 蜜糖",
+          "prices": [
+            {
+              "supermarketCode": "WELLCOME",
+              "store": "惠康",
+              "price": 26.0
+            },
+            {
+              "supermarketCode": "JASONS",
+              "store": "Jason's",
+              "price": 26.8
+            }
+          ],
+          "minPrice": 26.0,
+          "maxPrice": 26.8
+        },
+        {
+          "code": "P000002697",
+          "brand": "法國蜜月",
+          "name": "經典小熊蜂蜜 250克",
+          "nameEn": "Mild Blossom Honey (Bear Squeezer) 250g",
+          "cat2": "蜂蜜 / 蜜糖 / 糖漿",
+          "cat3": "蜂蜜 / 蜜糖",
+          "prices": [
+            {
+              "supermarketCode": "WELLCOME",
+              "store": "惠康",
+              "price": 48.0
+            },
+            {
+              "supermarketCode": "PARKNSHOP",
+              "store": "百佳",
+              "price": 47.9
+            },
+            {
+              "supermarketCode": "JASONS",
+              "store": "Jason's",
+              "price": 45.0
+            }
+          ],
+          "minPrice": 45.0,
+          "maxPrice": 48.0
+        },
+        {
+          "code": "P000001968",
+          "brand": "法國蜜月",
+          "name": "橙樹槐花蜜 Fruity and Floral 250克",
+          "nameEn": "Fruity and Floral Honey 250g",
+          "cat2": "蜂蜜 / 蜜糖 / 糖漿",
+          "cat3": "蜂蜜 / 蜜糖",
+          "prices": [
+            {
+              "supermarketCode": "WELLCOME",
+              "store": "惠康",
+              "price": 46.9
+            },
+            {
+              "supermarketCode": "PARKNSHOP",
+              "store": "百佳",
+              "price": 47.9
+            },
+            {
+              "supermarketCode": "JASONS",
+              "store": "Jason's",
+              "price": 50.0
+            }
+          ],
+          "minPrice": 46.9,
+          "maxPrice": 50.0
+        },
+        {
+          "code": "P000001957",
+          "brand": "法國蜜月",
+          "name": "清怡蜂蜜 Mild & Fresh 方便裝 250克",
+          "nameEn": "Mild & Fresh Honey 250g",
+          "cat2": "蜂蜜 / 蜜糖 / 糖漿",
+          "cat3": "蜂蜜 / 蜜糖",
+          "prices": [
+            {
+              "supermarketCode": "WELLCOME",
+              "store": "惠康",
+              "price": 46.9
+            },
+            {
+              "supermarketCode": "PARKNSHOP",
+              "store": "百佳",
+              "price": 47.9
+            },
+            {
+              "supermarketCode": "JASONS",
+              "store": "Jason's",
+              "price": 50.0
+            }
+          ],
+          "minPrice": 46.9,
+          "maxPrice": 50.0
+        },
+        {
+          "code": "P000001375",
+          "brand": "蘭絲",
+          "name": "野花蜂蜜 Wild Flower 方便裝 250克",
+          "nameEn": "Wild Flower Honey 250g",
+          "cat2": "蜂蜜 / 蜜糖 / 糖漿",
+          "cat3": "蜂蜜 / 蜜糖",
+          "prices": [
+            {
+              "supermarketCode": "WELLCOME",
+              "store": "惠康",
+              "price": 51.0
+            },
+            {
+              "supermarketCode": "PARKNSHOP",
+              "store": "百佳",
+              "price": 51.0
+            },
+            {
+              "supermarketCode": "JASONS",
+              "store": "Jason's",
+              "price": 54.0
+            },
+            {
+              "supermarketCode": "AEON",
+              "store": "AEON",
+              "price": 48.0
+            }
+          ],
+          "minPrice": 48.0,
+          "maxPrice": 54.0
+        },
+        {
+          "code": "P000004067",
+          "brand": "Meadows",
+          "name": "澳州天然蜜糖 400克",
+          "nameEn": "Australian Honey Twist & Squeeze 400 GM",
+          "cat2": "蜂蜜 / 蜜糖 / 糖漿",
+          "cat3": "蜂蜜 / 蜜糖",
+          "prices": [
+            {
+              "supermarketCode": "WELLCOME",
+              "store": "惠康",
+              "price": 52.0
+            },
+            {
+              "supermarketCode": "JASONS",
+              "store": "Jason's",
+              "price": 52.0
+            }
+          ],
+          "minPrice": 52.0,
+          "maxPrice": 52.0
+        },
+        {
+          "code": "P000003996",
+          "brand": "佳之選",
+          "name": "純蜂蜜 400克",
+          "nameEn": "PURE HONEY 400G",
+          "cat2": "蜂蜜 / 蜜糖 / 糖漿",
+          "cat3": "蜂蜜 / 蜜糖",
+          "prices": [
+            {
+              "supermarketCode": "PARKNSHOP",
+              "store": "百佳",
+              "price": 52.0
+            }
+          ],
+          "minPrice": 52.0,
+          "maxPrice": 52.0
+        },
+        {
+          "code": "P000001562",
+          "brand": "寶生園 真蜜",
+          "name": "百花蜜 500克",
+          "nameEn": "Mixed Honey 500g",
+          "cat2": "蜂蜜 / 蜜糖 / 糖漿",
+          "cat3": "蜂蜜 / 蜜糖",
+          "prices": [
+            {
+              "supermarketCode": "WELLCOME",
+              "store": "惠康",
+              "price": 59.0
+            },
+            {
+              "supermarketCode": "PARKNSHOP",
+              "store": "百佳",
+              "price": 59.0
+            },
+            {
+              "supermarketCode": "JASONS",
+              "store": "Jason's",
+              "price": 62.0
+            }
+          ],
+          "minPrice": 59.0,
+          "maxPrice": 62.0
+        },
+        {
+          "code": "P000002412",
+          "brand": "寶生園 真蜜",
+          "name": "龍眼花蜜 500克",
+          "nameEn": "Lungan Honey 500g",
+          "cat2": "蜂蜜 / 蜜糖 / 糖漿",
+          "cat3": "蜂蜜 / 蜜糖",
+          "prices": [
+            {
+              "supermarketCode": "PARKNSHOP",
+              "store": "百佳",
+              "price": 65.0
+            },
+            {
+              "supermarketCode": "AEON",
+              "store": "AEON",
+              "price": 59.0
+            }
+          ],
+          "minPrice": 59.0,
+          "maxPrice": 65.0
+        },
+        {
+          "code": "P000001383",
+          "brand": "加比蘭奴",
+          "name": "澳洲天然蜂蜜 (方便裝) 400克",
+          "nameEn": "100% Pure Australian Honey (Twist & Squeeze Bottle) 400g",
+          "cat2": "蜂蜜 / 蜜糖 / 糖漿",
+          "cat3": "蜂蜜 / 蜜糖",
+          "prices": [
+            {
+              "supermarketCode": "PARKNSHOP",
+              "store": "百佳",
+              "price": 62.0
+            }
+          ],
+          "minPrice": 62.0,
+          "maxPrice": 62.0
+        },
+        {
+          "code": "P000001561",
+          "brand": "寶生園 真蜜",
+          "name": "槐花蜜 500克",
+          "nameEn": "Acacia Honey 500g",
+          "cat2": "蜂蜜 / 蜜糖 / 糖漿",
+          "cat3": "蜂蜜 / 蜜糖",
+          "prices": [
+            {
+              "supermarketCode": "WELLCOME",
+              "store": "惠康",
+              "price": 63.0
+            },
+            {
+              "supermarketCode": "JASONS",
+              "store": "Jason's",
+              "price": 69.0
+            }
+          ],
+          "minPrice": 63.0,
+          "maxPrice": 69.0
+        },
+        {
+          "code": "P000002087",
+          "brand": "Naturoney",
+          "name": "純正加拿大蜂蜜 375克",
+          "nameEn": "Pure Canadian Honey  375g",
+          "cat2": "蜂蜜 / 蜜糖 / 糖漿",
+          "cat3": "蜂蜜 / 蜜糖",
+          "prices": [
+            {
+              "supermarketCode": "WELLCOME",
+              "store": "惠康",
+              "price": 63.0
+            },
+            {
+              "supermarketCode": "PARKNSHOP",
+              "store": "百佳",
+              "price": 78.0
+            },
+            {
+              "supermarketCode": "JASONS",
+              "store": "Jason's",
+              "price": 67.0
+            }
+          ],
+          "minPrice": 63.0,
+          "maxPrice": 78.0
+        },
+        {
+          "code": "P000001512",
+          "brand": "寶生園 真蜜",
+          "name": "冬蜜 500克",
+          "nameEn": "Winter Honey 500g",
+          "cat2": "蜂蜜 / 蜜糖 / 糖漿",
+          "cat3": "蜂蜜 / 蜜糖",
+          "prices": [
+            {
+              "supermarketCode": "PARKNSHOP",
+              "store": "百佳",
+              "price": 65.0
+            }
+          ],
+          "minPrice": 65.0,
+          "maxPrice": 65.0
+        },
+        {
+          "code": "P000001374",
+          "brand": "蘭絲",
+          "name": "蜂蜜 Pure Bee 375克",
+          "nameEn": "Pure Bee Honey 375g",
+          "cat2": "蜂蜜 / 蜜糖 / 糖漿",
+          "cat3": "蜂蜜 / 蜜糖",
+          "prices": [
+            {
+              "supermarketCode": "WELLCOME",
+              "store": "惠康",
+              "price": 68.0
+            },
+            {
+              "supermarketCode": "PARKNSHOP",
+              "store": "百佳",
+              "price": 68.0
+            },
+            {
+              "supermarketCode": "JASONS",
+              "store": "Jason's",
+              "price": 72.0
+            }
+          ],
+          "minPrice": 68.0,
+          "maxPrice": 72.0
+        },
+        {
+          "code": "P000002524",
+          "brand": "Naturoney",
+          "name": "有機蜂蜜 375克",
+          "nameEn": "Organic Honey 375g",
+          "cat2": "蜂蜜 / 蜜糖 / 糖漿",
+          "cat3": "蜂蜜 / 蜜糖",
+          "prices": [
+            {
+              "supermarketCode": "WELLCOME",
+              "store": "惠康",
+              "price": 69.0
+            },
+            {
+              "supermarketCode": "PARKNSHOP",
+              "store": "百佳",
+              "price": 88.0
+            },
+            {
+              "supermarketCode": "JASONS",
+              "store": "Jason's",
+              "price": 73.0
+            }
+          ],
+          "minPrice": 69.0,
+          "maxPrice": 88.0
+        },
+        {
+          "code": "P000001513",
+          "brand": "蘭絲",
+          "name": "槐花蜂蜜 Acacia 方便裝 250克",
+          "nameEn": "Acacia Honey 250g",
+          "cat2": "蜂蜜 / 蜜糖 / 糖漿",
+          "cat3": "蜂蜜 / 蜜糖",
+          "prices": [
+            {
+              "supermarketCode": "WELLCOME",
+              "store": "惠康",
+              "price": 76.0
+            },
+            {
+              "supermarketCode": "PARKNSHOP",
+              "store": "百佳",
+              "price": 76.0
+            },
+            {
+              "supermarketCode": "JASONS",
+              "store": "Jason's",
+              "price": 80.0
+            },
+            {
+              "supermarketCode": "AEON",
+              "store": "AEON",
+              "price": 72.0
+            }
+          ],
+          "minPrice": 72.0,
+          "maxPrice": 80.0
+        },
+        {
+          "code": "P000003997",
+          "brand": "佳之選",
+          "name": "冬蜜 1000克",
+          "nameEn": "WINTER HONEY 1000G",
+          "cat2": "蜂蜜 / 蜜糖 / 糖漿",
+          "cat3": "蜂蜜 / 蜜糖",
+          "prices": [
+            {
+              "supermarketCode": "PARKNSHOP",
+              "store": "百佳",
+              "price": 73.0
+            }
+          ],
+          "minPrice": 73.0,
+          "maxPrice": 73.0
+        },
+        {
+          "code": "P000002015",
+          "brand": "寶生園 真蜜",
+          "name": "百花蜜 1公斤",
+          "nameEn": "Mixed Honey 1kg",
+          "cat2": "蜂蜜 / 蜜糖 / 糖漿",
+          "cat3": "蜂蜜 / 蜜糖",
+          "prices": [
+            {
+              "supermarketCode": "PARKNSHOP",
+              "store": "百佳",
+              "price": 100.0
+            },
+            {
+              "supermarketCode": "AEON",
+              "store": "AEON",
+              "price": 92.0
+            },
+            {
+              "supermarketCode": "DCHFOOD",
+              "store": "DCH Food",
+              "price": 95.9
+            }
+          ],
+          "minPrice": 92.0,
+          "maxPrice": 100.0
+        },
+        {
+          "code": "P000001382",
+          "brand": "寶生園 真蜜",
+          "name": "冬蜜 1公斤",
+          "nameEn": "Winter Honey 1kg",
+          "cat2": "蜂蜜 / 蜜糖 / 糖漿",
+          "cat3": "蜂蜜 / 蜜糖",
+          "prices": [
+            {
+              "supermarketCode": "WELLCOME",
+              "store": "惠康",
+              "price": 96.0
+            },
+            {
+              "supermarketCode": "PARKNSHOP",
+              "store": "百佳",
+              "price": 106.0
+            },
+            {
+              "supermarketCode": "JASONS",
+              "store": "Jason's",
+              "price": 100.0
+            },
+            {
+              "supermarketCode": "AEON",
+              "store": "AEON",
+              "price": 99.5
+            }
+          ],
+          "minPrice": 96.0,
+          "maxPrice": 106.0
+        },
+        {
+          "code": "P000001612",
+          "brand": "寶生園 真蜜",
+          "name": "龍眼花蜜 1公斤",
+          "nameEn": "Lungan Honey 1kg",
+          "cat2": "蜂蜜 / 蜜糖 / 糖漿",
+          "cat3": "蜂蜜 / 蜜糖",
+          "prices": [
+            {
+              "supermarketCode": "WELLCOME",
+              "store": "惠康",
+              "price": 96.0
+            },
+            {
+              "supermarketCode": "PARKNSHOP",
+              "store": "百佳",
+              "price": 106.0
+            },
+            {
+              "supermarketCode": "JASONS",
+              "store": "Jason's",
+              "price": 100.0
+            },
+            {
+              "supermarketCode": "AEON",
+              "store": "AEON",
+              "price": 99.5
+            }
+          ],
+          "minPrice": 96.0,
+          "maxPrice": 106.0
+        },
+        {
+          "code": "P000001972",
+          "brand": "Glenugie Peak Organics",
+          "name": "雨林蜂蜜 Rainforest 400克",
+          "nameEn": "Rainforest Honey 400g",
+          "cat2": "蜂蜜 / 蜜糖 / 糖漿",
+          "cat3": "蜂蜜 / 蜜糖",
+          "prices": [
+            {
+              "supermarketCode": "PARKNSHOP",
+              "store": "百佳",
+              "price": 98.0
+            }
+          ],
+          "minPrice": 98.0,
+          "maxPrice": 98.0
+        },
+        {
+          "code": "P000004180",
+          "brand": "Meadows",
+          "name": "澳洲天然蜜糖 1 KG",
+          "nameEn": "AUSTRALIAN HONEY 1 KG",
+          "cat2": "蜂蜜 / 蜜糖 / 糖漿",
+          "cat3": "蜂蜜 / 蜜糖",
+          "prices": [
+            {
+              "supermarketCode": "WELLCOME",
+              "store": "惠康",
+              "price": 100.0
+            },
+            {
+              "supermarketCode": "JASONS",
+              "store": "Jason's",
+              "price": 100.0
+            }
+          ],
+          "minPrice": 100.0,
+          "maxPrice": 100.0
+        },
+        {
+          "code": "P000002545",
+          "brand": "加比蘭奴",
+          "name": "澳洲天然蜂蜜 1公斤",
+          "nameEn": "Natural Australian Honey 1kg",
+          "cat2": "蜂蜜 / 蜜糖 / 糖漿",
+          "cat3": "蜂蜜 / 蜜糖",
+          "prices": [
+            {
+              "supermarketCode": "PARKNSHOP",
+              "store": "百佳",
+              "price": 102.0
+            }
+          ],
+          "minPrice": 102.0,
+          "maxPrice": 102.0
+        },
+        {
+          "code": "P000001511",
+          "brand": "蘭絲",
+          "name": "槐花蜂蜜 Acacia 375克",
+          "nameEn": "Acacia Honey 375g",
+          "cat2": "蜂蜜 / 蜜糖 / 糖漿",
+          "cat3": "蜂蜜 / 蜜糖",
+          "prices": [
+            {
+              "supermarketCode": "WELLCOME",
+              "store": "惠康",
+              "price": 103.0
+            },
+            {
+              "supermarketCode": "PARKNSHOP",
+              "store": "百佳",
+              "price": 103.0
+            },
+            {
+              "supermarketCode": "JASONS",
+              "store": "Jason's",
+              "price": 109.0
+            }
+          ],
+          "minPrice": 103.0,
+          "maxPrice": 109.0
+        },
+        {
+          "code": "P000001956",
+          "brand": "愛比素",
+          "name": "森林蜂蜜 Forest 500克",
+          "nameEn": "Forest Honey 500g",
+          "cat2": "蜂蜜 / 蜜糖 / 糖漿",
+          "cat3": "蜂蜜 / 蜜糖",
+          "prices": [
+            {
+              "supermarketCode": "PARKNSHOP",
+              "store": "百佳",
+              "price": 108.0
+            },
+            {
+              "supermarketCode": "AEON",
+              "store": "AEON",
+              "price": 128.0
+            }
+          ],
+          "minPrice": 108.0,
+          "maxPrice": 128.0
+        }
+      ]
+    },
+    {
+      "id": "sugar",
+      "label": "砂糖／黃糖",
+      "products": [
+        {
+          "code": "P000003687",
+          "brand": "Meadows",
+          "name": "白砂糖 400克",
+          "nameEn": "White Granulated Sugar 400g",
+          "cat2": "調味 / 煮食用料",
+          "cat3": "糖 / 代糖",
+          "prices": [
+            {
+              "supermarketCode": "WELLCOME",
+              "store": "惠康",
+              "price": 6.5
+            },
+            {
+              "supermarketCode": "JASONS",
+              "store": "Jason's",
+              "price": 6.5
+            }
+          ],
+          "minPrice": 6.5,
+          "maxPrice": 6.5
+        },
+        {
+          "code": "P000000814",
+          "brand": "太古",
+          "name": "純正砂糖 400克",
+          "nameEn": "Granulated Sugar 400g",
+          "cat2": "調味 / 煮食用料",
+          "cat3": "糖 / 代糖",
+          "prices": [
+            {
+              "supermarketCode": "WELLCOME",
+              "store": "惠康",
+              "price": 7.5
+            },
+            {
+              "supermarketCode": "PARKNSHOP",
+              "store": "百佳",
+              "price": 10.0
+            },
+            {
+              "supermarketCode": "JASONS",
+              "store": "Jason's",
+              "price": 7.5
+            },
+            {
+              "supermarketCode": "AEON",
+              "store": "AEON",
+              "price": 8.0
+            }
+          ],
+          "minPrice": 7.5,
+          "maxPrice": 10.0
+        },
+        {
+          "code": "P000004649",
+          "brand": "金御膳",
+          "name": "片糖 400克",
+          "nameEn": "RAW SLAB SUGAR 400G",
+          "cat2": "調味 / 煮食用料",
+          "cat3": "糖 / 代糖",
+          "prices": [
+            {
+              "supermarketCode": "PARKNSHOP",
+              "store": "百佳",
+              "price": 9.0
+            }
+          ],
+          "minPrice": 9.0,
+          "maxPrice": 9.0
+        },
+        {
+          "code": "P000001094",
+          "brand": "太古",
+          "name": "金黃片糖 400克",
+          "nameEn": "Golden Slab Sugar 400g",
+          "cat2": "調味 / 煮食用料",
+          "cat3": "糖 / 代糖",
+          "prices": [
+            {
+              "supermarketCode": "WELLCOME",
+              "store": "惠康",
+              "price": 9.0
+            },
+            {
+              "supermarketCode": "PARKNSHOP",
+              "store": "百佳",
+              "price": 11.0
+            },
+            {
+              "supermarketCode": "JASONS",
+              "store": "Jason's",
+              "price": 9.0
+            }
+          ],
+          "minPrice": 9.0,
+          "maxPrice": 11.0
+        },
+        {
+          "code": "P000001308",
+          "brand": "珠江橋牌",
+          "name": "冰片糖 (特級) 454克",
+          "nameEn": "Brown Sugar in Pieces 454g",
+          "cat2": "調味 / 煮食用料",
+          "cat3": "糖 / 代糖",
+          "prices": [
+            {
+              "supermarketCode": "WELLCOME",
+              "store": "惠康",
+              "price": 10.0
+            },
+            {
+              "supermarketCode": "JASONS",
+              "store": "Jason's",
+              "price": 11.0
+            }
+          ],
+          "minPrice": 10.0,
+          "maxPrice": 11.0
+        },
+        {
+          "code": "P000001093",
+          "brand": "太古",
+          "name": "特級黃冰糖 350克",
+          "nameEn": "Rock Sugar 350g",
+          "cat2": "調味 / 煮食用料",
+          "cat3": "糖 / 代糖",
+          "prices": [
+            {
+              "supermarketCode": "WELLCOME",
+              "store": "惠康",
+              "price": 10.0
+            },
+            {
+              "supermarketCode": "PARKNSHOP",
+              "store": "百佳",
+              "price": 10.0
+            },
+            {
+              "supermarketCode": "JASONS",
+              "store": "Jason's",
+              "price": 10.5
+            },
+            {
+              "supermarketCode": "AEON",
+              "store": "AEON",
+              "price": 10.5
+            }
+          ],
+          "minPrice": 10.0,
+          "maxPrice": 10.5
+        },
+        {
+          "code": "P000001294",
+          "brand": "珠江橋牌",
+          "name": "黃冰糖 (特級) 454克",
+          "nameEn": "Yellow Rock Sugar 454g",
+          "cat2": "調味 / 煮食用料",
+          "cat3": "糖 / 代糖",
+          "prices": [
+            {
+              "supermarketCode": "WELLCOME",
+              "store": "惠康",
+              "price": 10.9
+            },
+            {
+              "supermarketCode": "PARKNSHOP",
+              "store": "百佳",
+              "price": 10.0
+            },
+            {
+              "supermarketCode": "JASONS",
+              "store": "Jason's",
+              "price": 11.9
+            }
+          ],
+          "minPrice": 10.0,
+          "maxPrice": 11.9
+        },
+        {
+          "code": "P000004312",
+          "brand": "Meadows",
+          "name": "白砂糖 800克",
+          "nameEn": "GRANULATED SUGAR 800 GM",
+          "cat2": "調味 / 煮食用料",
+          "cat3": "糖 / 代糖",
+          "prices": [
+            {
+              "supermarketCode": "WELLCOME",
+              "store": "惠康",
+              "price": 12.0
+            },
+            {
+              "supermarketCode": "JASONS",
+              "store": "Jason's",
+              "price": 12.0
+            }
+          ],
+          "minPrice": 12.0,
+          "maxPrice": 12.0
+        },
+        {
+          "code": "P000004650",
+          "brand": "金御膳",
+          "name": "原蔗冰糖 400克",
+          "nameEn": "RAW ROCK SUGAR 400G",
+          "cat2": "調味 / 煮食用料",
+          "cat3": "糖 / 代糖",
+          "prices": [
+            {
+              "supermarketCode": "PARKNSHOP",
+              "store": "百佳",
+              "price": 13.0
+            }
+          ],
+          "minPrice": 13.0,
+          "maxPrice": 13.0
+        },
+        {
+          "code": "P000004023",
+          "brand": "佳之選",
+          "name": "純正砂糖 908克",
+          "nameEn": "GRANULATED SUGAR 908G",
+          "cat2": "調味 / 煮食用料",
+          "cat3": "糖 / 代糖",
+          "prices": [
+            {
+              "supermarketCode": "PARKNSHOP",
+              "store": "百佳",
+              "price": 13.0
+            }
+          ],
+          "minPrice": 13.0,
+          "maxPrice": 13.0
+        },
+        {
+          "code": "P000002738",
+          "brand": "白雪",
+          "name": "白砂糖 1公斤",
+          "nameEn": "White Sugar 1kg",
+          "cat2": "調味 / 煮食用料",
+          "cat3": "糖 / 代糖",
+          "prices": [
+            {
+              "supermarketCode": "WELLCOME",
+              "store": "惠康",
+              "price": 14.0
+            }
+          ],
+          "minPrice": 14.0,
+          "maxPrice": 14.0
+        },
+        {
+          "code": "P000002740",
+          "brand": "太古",
+          "name": "純正砂糖包 375克 50包",
+          "nameEn": "Sugar Sachet 375g 50pcs",
+          "cat2": "調味 / 煮食用料",
+          "cat3": "糖 / 代糖",
+          "prices": [
+            {
+              "supermarketCode": "PARKNSHOP",
+              "store": "百佳",
+              "price": 17.5
+            }
+          ],
+          "minPrice": 17.5,
+          "maxPrice": 17.5
+        },
+        {
+          "code": "P000004307",
+          "brand": "Meadows",
+          "name": "黃糖 1千克",
+          "nameEn": "LIGHT BROWN SUGAR 1 KG",
+          "cat2": "調味 / 煮食用料",
+          "cat3": "糖 / 代糖",
+          "prices": [
+            {
+              "supermarketCode": "WELLCOME",
+              "store": "惠康",
+              "price": 22.0
+            },
+            {
+              "supermarketCode": "JASONS",
+              "store": "Jason's",
+              "price": 22.0
+            }
+          ],
+          "minPrice": 22.0,
+          "maxPrice": 22.0
+        },
+        {
+          "code": "P000004310",
+          "brand": "Meadows",
+          "name": "白砂糖 2千克",
+          "nameEn": "GRANULATED SUGAR 2 KG",
+          "cat2": "調味 / 煮食用料",
+          "cat3": "糖 / 代糖",
+          "prices": [
+            {
+              "supermarketCode": "WELLCOME",
+              "store": "惠康",
+              "price": 29.0
+            },
+            {
+              "supermarketCode": "JASONS",
+              "store": "Jason's",
+              "price": 30.0
+            }
+          ],
+          "minPrice": 29.0,
+          "maxPrice": 30.0
+        }
+      ]
+    },
+    {
+      "id": "soymilk",
+      "label": "豆漿／豆奶",
+      "products": [
+        {
+          "code": "P000000922",
+          "brand": "百福",
+          "name": "鮮豆漿 - 高鈣香滑 236 毫升",
+          "nameEn": "Soya Milk - Hi Calcium 236mL",
+          "cat2": "豆漿 / 豆奶 / 即沖豆漿",
+          "cat3": "冷藏鮮豆漿",
+          "prices": [
+            {
+              "supermarketCode": "WELLCOME",
+              "store": "惠康",
+              "price": 6.0
+            },
+            {
+              "supermarketCode": "JASONS",
+              "store": "Jason's",
+              "price": 6.0
+            },
+            {
+              "supermarketCode": "AEON",
+              "store": "AEON",
+              "price": 4.5
+            }
+          ],
+          "minPrice": 4.5,
+          "maxPrice": 6.0
+        },
+        {
+          "code": "P000003180",
+          "brand": "維他奶 山水",
+          "name": "鮮豆漿 - 高鈣低糖 236毫升",
+          "nameEn": "Fresh Soya Milk - Hi-Calcium Low Sugar 236mL",
+          "cat2": "豆漿 / 豆奶 / 即沖豆漿",
+          "cat3": "冷藏鮮豆漿",
+          "prices": [
+            {
+              "supermarketCode": "WELLCOME",
+              "store": "惠康",
+              "price": 4.9
+            },
+            {
+              "supermarketCode": "PARKNSHOP",
+              "store": "百佳",
+              "price": 6.0
+            },
+            {
+              "supermarketCode": "JASONS",
+              "store": "Jason's",
+              "price": 4.9
+            }
+          ],
+          "minPrice": 4.9,
+          "maxPrice": 6.0
+        },
+        {
+          "code": "P000000935",
+          "brand": "維他奶 山水",
+          "name": "鮮豆漿 - 特濃豆味 236毫升",
+          "nameEn": "Fresh Soya Milk 236mL",
+          "cat2": "豆漿 / 豆奶 / 即沖豆漿",
+          "cat3": "冷藏鮮豆漿",
+          "prices": [
+            {
+              "supermarketCode": "WELLCOME",
+              "store": "惠康",
+              "price": 7.0
+            },
+            {
+              "supermarketCode": "PARKNSHOP",
+              "store": "百佳",
+              "price": 6.0
+            },
+            {
+              "supermarketCode": "JASONS",
+              "store": "Jason's",
+              "price": 7.5
+            }
+          ],
+          "minPrice": 6.0,
+          "maxPrice": 7.5
+        },
+        {
+          "code": "P000001194",
+          "brand": "維他奶 山水",
+          "name": "鮮黑豆漿 - 低糖 236毫升",
+          "nameEn": "Fresh Black Soya Milk - Low Sugar 236mL",
+          "cat2": "豆漿 / 豆奶 / 即沖豆漿",
+          "cat3": "冷藏鮮豆漿",
+          "prices": [
+            {
+              "supermarketCode": "WELLCOME",
+              "store": "惠康",
+              "price": 7.5
+            },
+            {
+              "supermarketCode": "PARKNSHOP",
+              "store": "百佳",
+              "price": 6.0
+            },
+            {
+              "supermarketCode": "JASONS",
+              "store": "Jason's",
+              "price": 8.0
+            },
+            {
+              "supermarketCode": "AEON",
+              "store": "AEON",
+              "price": 6.9
+            }
+          ],
+          "minPrice": 6.0,
+          "maxPrice": 8.0
+        },
+        {
+          "code": "P000001292",
+          "brand": "大和",
+          "name": "豆漿 (原味) 408毫升",
+          "nameEn": "Soybean Milk (Original) 408mL",
+          "cat2": "豆漿 / 豆奶 / 即沖豆漿",
+          "cat3": "豆奶 / 豆漿",
+          "prices": [
+            {
+              "supermarketCode": "PARKNSHOP",
+              "store": "百佳",
+              "price": 9.0
+            },
+            {
+              "supermarketCode": "AEON",
+              "store": "AEON",
+              "price": 6.9
+            }
+          ],
+          "minPrice": 6.9,
+          "maxPrice": 9.0
+        },
+        {
+          "code": "P000005058",
+          "brand": "維他奶",
+          "name": "士多啤梨豆奶 - 低糖 250毫升 x 6",
+          "nameEn": "Strawberry Soya Bean Milk - Low Sugar 250mL x 6",
+          "cat2": "豆漿 / 豆奶 / 即沖豆漿",
+          "cat3": "豆奶 / 豆漿",
+          "prices": [
+            {
+              "supermarketCode": "WELLCOME",
+              "store": "惠康",
+              "price": 23.0
+            },
+            {
+              "supermarketCode": "PARKNSHOP",
+              "store": "百佳",
+              "price": 11.5
+            },
+            {
+              "supermarketCode": "JASONS",
+              "store": "Jason's",
+              "price": 23.0
+            }
+          ],
+          "minPrice": 11.5,
+          "maxPrice": 23.0
+        },
+        {
+          "code": "P000000214",
+          "brand": "維記",
+          "name": "特濃鮮豆漿 946毫升",
+          "nameEn": "The Beanier Fresh Soya Milk 946mL",
+          "cat2": "豆漿 / 豆奶 / 即沖豆漿",
+          "cat3": "冷藏鮮豆漿",
+          "prices": [
+            {
+              "supermarketCode": "PARKNSHOP",
+              "store": "百佳",
+              "price": 11.5
+            }
+          ],
+          "minPrice": 11.5,
+          "maxPrice": 11.5
+        },
+        {
+          "code": "P000000108",
+          "brand": "百福",
+          "name": "鮮豆漿 - 高鈣低糖 946毫升",
+          "nameEn": "Soya Milk - Hi Calcium Low Sugar 946mL",
+          "cat2": "豆漿 / 豆奶 / 即沖豆漿",
+          "cat3": "冷藏鮮豆漿",
+          "prices": [
+            {
+              "supermarketCode": "WELLCOME",
+              "store": "惠康",
+              "price": 12.0
+            },
+            {
+              "supermarketCode": "PARKNSHOP",
+              "store": "百佳",
+              "price": 14.5
+            },
+            {
+              "supermarketCode": "JASONS",
+              "store": "Jason's",
+              "price": 14.0
+            },
+            {
+              "supermarketCode": "AEON",
+              "store": "AEON",
+              "price": 11.9
+            }
+          ],
+          "minPrice": 11.9,
+          "maxPrice": 14.5
+        },
+        {
+          "code": "P000000423",
+          "brand": "維他",
+          "name": "純豆漿 - 無添加糖 1公升",
+          "nameEn": "Pure Soya Bean Extract - No Sugar Added 1L",
+          "cat2": "豆漿 / 豆奶 / 即沖豆漿",
+          "cat3": "豆奶 / 豆漿",
+          "prices": [
+            {
+              "supermarketCode": "WELLCOME",
+              "store": "惠康",
+              "price": 12.0
+            },
+            {
+              "supermarketCode": "PARKNSHOP",
+              "store": "百佳",
+              "price": 14.0
+            },
+            {
+              "supermarketCode": "JASONS",
+              "store": "Jason's",
+              "price": 12.0
+            },
+            {
+              "supermarketCode": "AEON",
+              "store": "AEON",
+              "price": 13.9
+            }
+          ],
+          "minPrice": 12.0,
+          "maxPrice": 14.0
+        },
+        {
+          "code": "P000000686",
+          "brand": "百福",
+          "name": "鮮豆漿 - 高鈣香滑 946 毫升",
+          "nameEn": "Soya Milk - Hi Calcium 946mL",
+          "cat2": "豆漿 / 豆奶 / 即沖豆漿",
+          "cat3": "冷藏鮮豆漿",
+          "prices": [
+            {
+              "supermarketCode": "WELLCOME",
+              "store": "惠康",
+              "price": 12.0
+            },
+            {
+              "supermarketCode": "PARKNSHOP",
+              "store": "百佳",
+              "price": 14.5
+            },
+            {
+              "supermarketCode": "JASONS",
+              "store": "Jason's",
+              "price": 14.0
+            }
+          ],
+          "minPrice": 12.0,
+          "maxPrice": 14.5
+        },
+        {
+          "code": "P000000425",
+          "brand": "維他奶",
+          "name": "豆奶 1公升",
+          "nameEn": "Soya Bean Milk 1L",
+          "cat2": "豆漿 / 豆奶 / 即沖豆漿",
+          "cat3": "豆奶 / 豆漿",
+          "prices": [
+            {
+              "supermarketCode": "PARKNSHOP",
+              "store": "百佳",
+              "price": 13.0
+            }
+          ],
+          "minPrice": 13.0,
+          "maxPrice": 13.0
+        },
+        {
+          "code": "P000000127",
+          "brand": "維他奶",
+          "name": "麥精豆奶 1公升",
+          "nameEn": "Soya Bean Milk - Malted 1L",
+          "cat2": "豆漿 / 豆奶 / 即沖豆漿",
+          "cat3": "豆奶 / 豆漿",
+          "prices": [
+            {
+              "supermarketCode": "PARKNSHOP",
+              "store": "百佳",
+              "price": 13.0
+            }
+          ],
+          "minPrice": 13.0,
+          "maxPrice": 13.0
+        },
+        {
+          "code": "P000001335",
+          "brand": "維他奶 山水",
+          "name": "鮮豆漿 - 特濃豆味 946毫升",
+          "nameEn": "Fresh Soya Milk 946mL",
+          "cat2": "豆漿 / 豆奶 / 即沖豆漿",
+          "cat3": "冷藏鮮豆漿",
+          "prices": [
+            {
+              "supermarketCode": "WELLCOME",
+              "store": "惠康",
+              "price": 18.5
+            },
+            {
+              "supermarketCode": "PARKNSHOP",
+              "store": "百佳",
+              "price": 16.0
+            },
+            {
+              "supermarketCode": "JASONS",
+              "store": "Jason's",
+              "price": 18.5
+            },
+            {
+              "supermarketCode": "AEON",
+              "store": "AEON",
+              "price": 18.5
+            }
+          ],
+          "minPrice": 16.0,
+          "maxPrice": 18.5
+        },
+        {
+          "code": "P000001193",
+          "brand": "維他奶 山水",
+          "name": "鮮黑豆漿 - 低糖 946毫升",
+          "nameEn": "Fresh Black Soya Milk - Low Sugar 946mL",
+          "cat2": "豆漿 / 豆奶 / 即沖豆漿",
+          "cat3": "冷藏鮮豆漿",
+          "prices": [
+            {
+              "supermarketCode": "WELLCOME",
+              "store": "惠康",
+              "price": 19.5
+            },
+            {
+              "supermarketCode": "PARKNSHOP",
+              "store": "百佳",
+              "price": 16.0
+            },
+            {
+              "supermarketCode": "JASONS",
+              "store": "Jason's",
+              "price": 20.0
+            },
+            {
+              "supermarketCode": "AEON",
+              "store": "AEON",
+              "price": 19.5
+            }
+          ],
+          "minPrice": 16.0,
+          "maxPrice": 20.0
+        },
+        {
+          "code": "P000002371",
+          "brand": "大排檔",
+          "name": "無蔗糖添加即沖100%豆漿 20克 x 8",
+          "nameEn": "No Cane Sugar Added Instant Soya Powder 20g x 8",
+          "cat2": "豆漿 / 豆奶 / 即沖豆漿",
+          "cat3": "即沖豆漿",
+          "prices": [
+            {
+              "supermarketCode": "WELLCOME",
+              "store": "惠康",
+              "price": 20.0
+            },
+            {
+              "supermarketCode": "PARKNSHOP",
+              "store": "百佳",
+              "price": 24.9
+            },
+            {
+              "supermarketCode": "JASONS",
+              "store": "Jason's",
+              "price": 21.0
+            },
+            {
+              "supermarketCode": "DCHFOOD",
+              "store": "DCH Food",
+              "price": 26.0
+            }
+          ],
+          "minPrice": 20.0,
+          "maxPrice": 26.0
+        },
+        {
+          "code": "P000002542",
+          "brand": "維他",
+          "name": "純豆漿 - 低糖 250毫升 x 6",
+          "nameEn": "Pure Soyabean Extract - Low Sugar 250mL x 6",
+          "cat2": "豆漿 / 豆奶 / 即沖豆漿",
+          "cat3": "豆奶 / 豆漿",
+          "prices": [
+            {
+              "supermarketCode": "WELLCOME",
+              "store": "惠康",
+              "price": 26.0
+            },
+            {
+              "supermarketCode": "PARKNSHOP",
+              "store": "百佳",
+              "price": 26.0
+            },
+            {
+              "supermarketCode": "JASONS",
+              "store": "Jason's",
+              "price": 26.9
+            },
+            {
+              "supermarketCode": "WATSONS",
+              "store": "屈臣氏",
+              "price": 20.0
+            }
+          ],
+          "minPrice": 20.0,
+          "maxPrice": 26.9
+        },
+        {
+          "code": "P000001260",
+          "brand": "維他奶",
+          "name": "豆奶 - 低糖 250毫升 x 6",
+          "nameEn": "Soya Bean Milk - Low Sugar 250mL x 6",
+          "cat2": "豆漿 / 豆奶 / 即沖豆漿",
+          "cat3": "豆奶 / 豆漿",
+          "prices": [
+            {
+              "supermarketCode": "WELLCOME",
+              "store": "惠康",
+              "price": 23.0
+            },
+            {
+              "supermarketCode": "PARKNSHOP",
+              "store": "百佳",
+              "price": 23.0
+            },
+            {
+              "supermarketCode": "JASONS",
+              "store": "Jason's",
+              "price": 23.0
+            },
+            {
+              "supermarketCode": "WATSONS",
+              "store": "屈臣氏",
+              "price": 20.0
+            }
+          ],
+          "minPrice": 20.0,
+          "maxPrice": 23.0
+        },
+        {
+          "code": "P000000426",
+          "brand": "維他奶",
+          "name": "豆奶 250毫升 x 6",
+          "nameEn": "Soya Bean Milk 250mL x 6",
+          "cat2": "豆漿 / 豆奶 / 即沖豆漿",
+          "cat3": "豆奶 / 豆漿",
+          "prices": [
+            {
+              "supermarketCode": "WELLCOME",
+              "store": "惠康",
+              "price": 23.0
+            },
+            {
+              "supermarketCode": "PARKNSHOP",
+              "store": "百佳",
+              "price": 23.0
+            },
+            {
+              "supermarketCode": "JASONS",
+              "store": "Jason's",
+              "price": 23.0
+            },
+            {
+              "supermarketCode": "WATSONS",
+              "store": "屈臣氏",
+              "price": 20.0
+            },
+            {
+              "supermarketCode": "AEON",
+              "store": "AEON",
+              "price": 22.9
+            }
+          ],
+          "minPrice": 20.0,
+          "maxPrice": 23.0
+        },
+        {
+          "code": "P000000688",
+          "brand": "維他奶",
+          "name": "麥精豆奶 - 低糖 250毫升 x 6",
+          "nameEn": "Soya Bean Milk - Malted - Low Sugar 250mL x 6",
+          "cat2": "豆漿 / 豆奶 / 即沖豆漿",
+          "cat3": "豆奶 / 豆漿",
+          "prices": [
+            {
+              "supermarketCode": "WELLCOME",
+              "store": "惠康",
+              "price": 23.0
+            },
+            {
+              "supermarketCode": "PARKNSHOP",
+              "store": "百佳",
+              "price": 23.0
+            },
+            {
+              "supermarketCode": "JASONS",
+              "store": "Jason's",
+              "price": 23.0
+            },
+            {
+              "supermarketCode": "WATSONS",
+              "store": "屈臣氏",
+              "price": 20.0
+            },
+            {
+              "supermarketCode": "AEON",
+              "store": "AEON",
+              "price": 22.9
+            }
+          ],
+          "minPrice": 20.0,
+          "maxPrice": 23.0
+        },
+        {
+          "code": "P000000242",
+          "brand": "維他奶",
+          "name": "麥精豆奶 250毫升 x 6",
+          "nameEn": "Soya Bean Milk - Malted 250mL x 6",
+          "cat2": "豆漿 / 豆奶 / 即沖豆漿",
+          "cat3": "豆奶 / 豆漿",
+          "prices": [
+            {
+              "supermarketCode": "WELLCOME",
+              "store": "惠康",
+              "price": 23.0
+            },
+            {
+              "supermarketCode": "PARKNSHOP",
+              "store": "百佳",
+              "price": 23.0
+            },
+            {
+              "supermarketCode": "JASONS",
+              "store": "Jason's",
+              "price": 23.0
+            },
+            {
+              "supermarketCode": "WATSONS",
+              "store": "屈臣氏",
+              "price": 20.0
+            },
+            {
+              "supermarketCode": "AEON",
+              "store": "AEON",
+              "price": 22.9
+            }
+          ],
+          "minPrice": 20.0,
+          "maxPrice": 23.0
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    {
+      "id": "oat_milk",
+      "label": "燕麥奶",
+      "note": "暫無公開參考價"
+    },
+    {
+      "id": "frozen_berries",
+      "label": "急凍雜莓",
+      "note": "暫無公開參考價"
+    },
+    {
+      "id": "yogurt_maker",
+      "label": "乳酪機",
+      "note": "暫無公開參考價"
+    },
+    {
+      "id": "starter_culture",
+      "label": "專用乳酪菌粉",
+      "note": "暫無公開參考價（可用原味乳酪代替）"
+    }
+  ],
+  "storeLabels": {
+    "PARKNSHOP": "百佳",
+    "WELLCOME": "惠康",
+    "JASONS": "Jason's",
+    "AEON": "AEON",
+    "WATSONS": "屈臣氏",
+    "MANNINGS": "萬寧",
+    "LUNGFUNG": "龍豐",
+    "DCHFOOD": "DCH Food",
+    "SASA": "莎莎"
+  },
+  "stores": [
+    {
+      "id": "pn_cwb",
+      "chain": "PARKNSHOP",
+      "name": "百佳（銅鑼灣時代廣場）",
+      "lat": 22.2783,
+      "lng": 114.182,
+      "district": "灣仔／銅鑼灣"
+    },
+    {
+      "id": "wc_cwb",
+      "chain": "WELLCOME",
+      "name": "惠康（銅鑼灣軒尼詩道）",
+      "lat": 22.2789,
+      "lng": 114.1805,
+      "district": "灣仔／銅鑼灣"
+    },
+    {
+      "id": "js_cwb",
+      "chain": "JASONS",
+      "name": "Jason's（銅鑼灣）",
+      "lat": 22.2805,
+      "lng": 114.184,
+      "district": "灣仔／銅鑼灣"
+    },
+    {
+      "id": "ae_cwb",
+      "chain": "AEON",
+      "name": "AEON STYLE（銅鑼灣）",
+      "lat": 22.2798,
+      "lng": 114.1855,
+      "district": "灣仔／銅鑼灣"
+    },
+    {
+      "id": "pn_cen",
+      "chain": "PARKNSHOP",
+      "name": "百佳（中環IFC）",
+      "lat": 22.2855,
+      "lng": 114.158,
+      "district": "中西區"
+    },
+    {
+      "id": "wc_cen",
+      "chain": "WELLCOME",
+      "name": "惠康（中環）",
+      "lat": 22.282,
+      "lng": 114.1555,
+      "district": "中西區"
+    },
+    {
+      "id": "js_cen",
+      "chain": "JASONS",
+      "name": "Jason's（中環）",
+      "lat": 22.281,
+      "lng": 114.157,
+      "district": "中西區"
+    },
+    {
+      "id": "pn_mk",
+      "chain": "PARKNSHOP",
+      "name": "百佳（旺角朗豪坊）",
+      "lat": 22.3182,
+      "lng": 114.1685,
+      "district": "油尖旺"
+    },
+    {
+      "id": "wc_mk",
+      "chain": "WELLCOME",
+      "name": "惠康（旺角）",
+      "lat": 22.3195,
+      "lng": 114.17,
+      "district": "油尖旺"
+    },
+    {
+      "id": "ae_mk",
+      "chain": "AEON",
+      "name": "AEON（旺角）",
+      "lat": 22.317,
+      "lng": 114.1708,
+      "district": "油尖旺"
+    },
+    {
+      "id": "pn_tst",
+      "chain": "PARKNSHOP",
+      "name": "百佳（尖沙咀）",
+      "lat": 22.2975,
+      "lng": 114.172,
+      "district": "油尖旺"
+    },
+    {
+      "id": "js_tst",
+      "chain": "JASONS",
+      "name": "Jason's（尖沙咀）",
+      "lat": 22.296,
+      "lng": 114.174,
+      "district": "油尖旺"
+    },
+    {
+      "id": "pn_st",
+      "chain": "PARKNSHOP",
+      "name": "百佳（沙田新城市廣場）",
+      "lat": 22.3825,
+      "lng": 114.188,
+      "district": "沙田"
+    },
+    {
+      "id": "wc_st",
+      "chain": "WELLCOME",
+      "name": "惠康（沙田）",
+      "lat": 22.381,
+      "lng": 114.19,
+      "district": "沙田"
+    },
+    {
+      "id": "ae_st",
+      "chain": "AEON",
+      "name": "AEON（沙田）",
+      "lat": 22.3835,
+      "lng": 114.1915,
+      "district": "沙田"
+    },
+    {
+      "id": "pn_tw",
+      "chain": "PARKNSHOP",
+      "name": "百佳（荃灣）",
+      "lat": 22.3708,
+      "lng": 114.1175,
+      "district": "荃灣"
+    },
+    {
+      "id": "wc_tw",
+      "chain": "WELLCOME",
+      "name": "惠康（荃灣）",
+      "lat": 22.372,
+      "lng": 114.119,
+      "district": "荃灣"
+    },
+    {
+      "id": "pn_kb",
+      "chain": "PARKNSHOP",
+      "name": "百佳（九龍灣）",
+      "lat": 22.3235,
+      "lng": 114.21,
+      "district": "觀塘"
+    },
+    {
+      "id": "ae_kb",
+      "chain": "AEON",
+      "name": "AEON（九龍灣）",
+      "lat": 22.321,
+      "lng": 114.213,
+      "district": "觀塘"
+    },
+    {
+      "id": "pn_tko",
+      "chain": "PARKNSHOP",
+      "name": "百佳（將軍澳）",
+      "lat": 22.3075,
+      "lng": 114.2605,
+      "district": "西貢／將軍澳"
+    },
+    {
+      "id": "wc_tko",
+      "chain": "WELLCOME",
+      "name": "惠康（將軍澳）",
+      "lat": 22.309,
+      "lng": 114.258,
+      "district": "西貢／將軍澳"
+    }
+  ],
+  "districts": [
+    {
+      "id": "cwb",
+      "label": "銅鑼灣／灣仔",
+      "lat": 22.2795,
+      "lng": 114.183
+    },
+    {
+      "id": "central",
+      "label": "中環／金鐘",
+      "lat": 22.283,
+      "lng": 114.157
+    },
+    {
+      "id": "mk",
+      "label": "旺角",
+      "lat": 22.319,
+      "lng": 114.1695
+    },
+    {
+      "id": "tst",
+      "label": "尖沙咀",
+      "lat": 22.297,
+      "lng": 114.1725
+    },
+    {
+      "id": "st",
+      "label": "沙田",
+      "lat": 22.3825,
+      "lng": 114.189
+    },
+    {
+      "id": "tw",
+      "label": "荃灣",
+      "lat": 22.3715,
+      "lng": 114.118
+    },
+    {
+      "id": "kt",
+      "label": "九龍灣／觀塘",
+      "lat": 22.322,
+      "lng": 114.2115
+    },
+    {
+      "id": "tko",
+      "label": "將軍澳",
+      "lat": 22.308,
+      "lng": 114.259
+    }
+  ],
+  "defaultList": [
+    {
+      "role": "milk_fresh",
+      "label": "鮮牛奶（約 1L）",
+      "qty": 1,
+      "optional": false
+    },
+    {
+      "role": "yogurt_plain",
+      "label": "原味／希臘式乳酪（菌種）",
+      "qty": 1,
+      "optional": false
+    },
+    {
+      "role": "honey",
+      "label": "蜜糖",
+      "qty": 1,
+      "optional": true
+    },
+    {
+      "role": "gap:oat_milk",
+      "label": "燕麥奶",
+      "qty": 1,
+      "optional": true
+    },
+    {
+      "role": "gap:frozen_berries",
+      "label": "急凍雜莓",
+      "qty": 1,
+      "optional": true
+    }
+  ]
+}

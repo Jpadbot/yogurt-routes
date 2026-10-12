@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>乳酪材料路線 · yogurt-routes</title>
+<meta name="description" content="香港自製乳酪材料採購推薦：依消委會 OPW 參考價比較高／中／低／方便四條路線。">
+<style>
+:root{
+  --bg:#f4f1ea; --card:#fffdf8; --ink:#1c1917; --muted:#78716c;
+  --line:#e7e0d5; --accent:#0f766e; --accent2:#b45309; --bad:#b91c1c;
+  --hi:#9f1239; --mid:#a16207; --lo:#047857; --near:#1d4ed8;
+  --radius:14px; --shadow:0 8px 24px rgba(28,25,23,.08);
+}
+*{box-sizing:border-box}
+html,body{margin:0;padding:0;background:var(--bg);color:var(--ink);
+  font-family:"Noto Sans TC","PingFang TC","Hiragino Sans CNS",system-ui,sans-serif;
+  line-height:1.45;-webkit-text-size-adjust:100%}
+body{min-height:100dvh}
+.wrap{max-width:480px;margin:0 auto;padding:14px 14px 40px}
+header.app{padding:10px 2px 6px}
+header.app h1{margin:0;font-size:1.35rem;letter-spacing:.02em}
+header.app p{margin:6px 0 0;color:var(--muted);font-size:.9rem}
+.card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);
+  box-shadow:var(--shadow);padding:14px;margin:12px 0}
+.card h2{margin:0 0 10px;font-size:1.05rem}
+label{display:block;font-size:.82rem;color:var(--muted);margin:8px 0 4px}
+input[type=text],input[type=number],select,textarea{
+  width:100%;padding:12px 12px;border:1px solid var(--line);border-radius:10px;
+  font:inherit;background:#fff;color:var(--ink);min-height:44px}
+.row{display:flex;gap:8px;flex-wrap:wrap}
+.row > *{flex:1;min-width:0}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin:8px 0}
+.chip{min-height:40px;padding:8px 12px;border-radius:999px;border:1px solid var(--line);
+  background:#fff;font:inherit;color:var(--ink);cursor:pointer}
+.chip.active{background:var(--accent);color:#fff;border-color:var(--accent)}
+.btn{min-height:48px;padding:12px 16px;border:none;border-radius:12px;font:inherit;
+  font-weight:700;cursor:pointer;width:100%}
+.btn-primary{background:var(--accent);color:#fff}
+.btn-primary:disabled{opacity:.5;cursor:not-allowed}
+.btn-ghost{background:#fff;border:1px solid var(--line);color:var(--ink);width:auto;padding:10px 14px}
+.btn-danger{background:#fff;border:1px solid #fecaca;color:var(--bad);width:auto;padding:8px 12px;min-height:40px}
+.list-item{display:grid;grid-template-columns:1fr 72px 44px;gap:8px;align-items:center;
+  padding:10px 0;border-bottom:1px solid var(--line)}
+.list-item:last-child{border-bottom:none}
+.list-item .name{font-weight:600;font-size:.95rem}
+.list-item .meta{font-size:.78rem;color:var(--muted)}
+.tag{display:inline-block;font-size:.72rem;padding:2px 8px;border-radius:999px;background:#ecfdf5;color:#065f46}
+.tag.gap{background:#fff7ed;color:#9a3412}
+.tag.opt{background:#f5f5f4;color:#57534e}
+.routes{display:flex;flex-direction:column;gap:12px}
+.route{border:1px solid var(--line);border-radius:12px;padding:12px;background:#fff}
+.route.hi{border-left:5px solid var(--hi)}
+.route.mid{border-left:5px solid var(--mid)}
+.route.lo{border-left:5px solid var(--lo)}
+.route.near{border-left:5px solid var(--near)}
+.route .head{display:flex;justify-content:space-between;gap:8px;align-items:flex-start}
+.route .kind{font-weight:800;font-size:1rem}
+.route .price{font-weight:800;font-size:1.15rem;white-space:nowrap}
+.route .sub{color:var(--muted);font-size:.85rem;margin-top:4px}
+.route ul{margin:8px 0 0;padding-left:18px;font-size:.9rem}
+.route .alt{margin-top:10px;padding-top:10px;border-top:1px dashed var(--line);font-size:.88rem}
+.badge{font-size:.72rem;font-weight:700;padding:3px 8px;border-radius:6px;background:#f5f5f4}
+.notice{font-size:.82rem;color:var(--muted);background:#fafaf9;border:1px dashed var(--line);
+  border-radius:10px;padding:10px;margin-top:8px}
+.notice strong{color:var(--accent2)}
+.footer{font-size:.78rem;color:var(--muted);padding:8px 2px 24px}
+.footer a{color:var(--accent)}
+.err{color:var(--bad);font-size:.9rem;margin:8px 0}
+.loading{color:var(--muted);padding:20px;text-align:center}
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);border:0}
+.compare{width:100%;border-collapse:collapse;font-size:.82rem;margin-top:8px}
+.compare th,.compare td{border-bottom:1px solid var(--line);padding:8px 6px;text-align:left;vertical-align:top}
+.compare th{color:var(--muted);font-weight:600}
+.cov{font-variant-numeric:tabular-nums}
+details.more{margin-top:8px}
+details.more summary{cursor:pointer;color:var(--accent);font-size:.88rem;min-height:40px;display:flex;align-items:center}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="app">
+    <h1>乳酪材料路線</h1>
+    <p>自製乳酪採購對照 · 消委會 OPW 參考價 · 非庫存保證</p>
+  </header>
+
+  <section class="card" aria-labelledby="loc-h">
+    <h2 id="loc-h">① 你的位置</h2>
+    <div class="chips" id="districtChips" role="listbox" aria-label="常用地區"></div>
+    <label for="addr">地址關鍵字（可選，用地政署 ALS 查座標）</label>
+    <div class="row">
+      <input id="addr" type="text" placeholder="例如：铜鑼灣時代廣場／旺角朗豪坊" autocomplete="street-address">
+      <button type="button" class="btn-ghost" id="btnGeocode" style="flex:0 0 auto">查座標</button>
+    </div>
+    <div class="row">
+      <div>
+        <label for="lat">緯度</label>
+        <input id="lat" type="number" step="0.0001" value="22.2795">
+      </div>
+      <div>
+        <label for="lng">經度</label>
+        <input id="lng" type="number" step="0.0001" value="114.1830">
+      </div>
+    </div>
+    <p class="notice" id="locStatus">預設：銅鑼灣／灣仔。可點地區或查地址。</p>
+  </section>
+
+  <section class="card" aria-labelledby="list-h">
+    <h2 id="list-h">② 材料清單（可編輯）</h2>
+    <div id="ingredientList"></div>
+    <label for="addRole">加入材料</label>
+    <div class="row">
+      <select id="addRole"></select>
+      <button type="button" class="btn-ghost" id="btnAdd" style="flex:0 0 auto">加入</button>
+    </div>
+  </section>
+
+  <section class="card">
+    <button type="button" class="btn btn-primary" id="btnGo">計算四條採購路線</button>
+    <p class="notice"><strong>重要：</strong>以下為監察<strong>參考價</strong>與示範門市距離，<strong>不保證</strong>門市有貨或價格相同。缺口材料會標示「暫無公開參考價」，不會虛構價格。</p>
+  </section>
+
+  <section class="card" aria-labelledby="out-h">
+    <h2 id="out-h">③ 路線對照</h2>
+    <div id="results" class="loading">按上方按鈕後顯示高價／中價／低價／方便四線。</div>
+  </section>
+
+  <footer class="footer">
+    <p id="attr"></p>
+    <p>距離：示範門市座標（人手整理）＋可選<a href="https://www.als.gov.hk/" target="_blank" rel="noopener">地政總署地理地址</a>查詢。超市網站未有爬取。</p>
+    <p>yogurt-routes v1 · 路徑 A（OPW）</p>
+  </footer>
+</div>
+<script src="./app.js"></script>
+</body>
+</html>

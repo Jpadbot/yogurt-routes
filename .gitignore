@@ -1,0 +1,4 @@
+node_modules/
+verify-out/
+.DS_Store
+*.log
