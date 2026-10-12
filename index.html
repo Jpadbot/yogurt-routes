@@ -4,92 +4,133 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>乳酪材料路線 · yogurt-routes</title>
-<meta name="description" content="香港自製乳酪材料採購推薦：依消委會 OPW 參考價比較高／中／低／方便四條路線。">
+<meta name="description" content="香港自製乳酪材料採購推薦：可選品牌，依消委會 OPW 參考價比較高／中／低／方便四條路線。">
 <style>
 :root{
-  --bg:#f4f1ea; --card:#fffdf8; --ink:#1c1917; --muted:#78716c;
-  --line:#e7e0d5; --accent:#0f766e; --accent2:#b45309; --bad:#b91c1c;
+  --bg:#eef2f0; --card:#ffffff; --ink:#0f172a; --muted:#64748b;
+  --line:#d8e0e6; --accent:#0f766e; --accent-soft:#ccfbf1;
+  --warn-bg:#fff7ed; --warn-ink:#9a3412; --gap-bg:#fef3c7; --gap-ink:#92400e;
   --hi:#9f1239; --mid:#a16207; --lo:#047857; --near:#1d4ed8;
-  --radius:14px; --shadow:0 8px 24px rgba(28,25,23,.08);
+  --radius:16px; --shadow:0 10px 28px rgba(15,23,42,.07);
+  --tap:48px;
 }
 *{box-sizing:border-box}
 html,body{margin:0;padding:0;background:var(--bg);color:var(--ink);
   font-family:"Noto Sans TC","PingFang TC","Hiragino Sans CNS",system-ui,sans-serif;
-  line-height:1.45;-webkit-text-size-adjust:100%}
+  line-height:1.55;-webkit-text-size-adjust:100%}
 body{min-height:100dvh}
-.wrap{max-width:480px;margin:0 auto;padding:14px 14px 40px}
-header.app{padding:10px 2px 6px}
-header.app h1{margin:0;font-size:1.35rem;letter-spacing:.02em}
-header.app p{margin:6px 0 0;color:var(--muted);font-size:.9rem}
+.wrap{max-width:440px;margin:0 auto;padding:18px 16px 48px}
+header.app{padding:8px 4px 14px}
+.eyebrow{display:inline-block;font-size:.72rem;font-weight:700;letter-spacing:.08em;
+  text-transform:uppercase;color:var(--accent);background:var(--accent-soft);
+  padding:4px 10px;border-radius:999px;margin-bottom:10px}
+header.app h1{margin:0;font-size:1.55rem;line-height:1.25;letter-spacing:.01em}
+header.app .lead{margin:10px 0 0;color:var(--muted);font-size:.95rem}
+
 .card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);
-  box-shadow:var(--shadow);padding:14px;margin:12px 0}
-.card h2{margin:0 0 10px;font-size:1.05rem}
-label{display:block;font-size:.82rem;color:var(--muted);margin:8px 0 4px}
-input[type=text],input[type=number],select,textarea{
-  width:100%;padding:12px 12px;border:1px solid var(--line);border-radius:10px;
-  font:inherit;background:#fff;color:var(--ink);min-height:44px}
-.row{display:flex;gap:8px;flex-wrap:wrap}
+  box-shadow:var(--shadow);padding:18px 16px;margin:0 0 16px}
+.card h2{margin:0 0 6px;font-size:1.12rem}
+.card .step{color:var(--muted);font-size:.86rem;margin:0 0 14px}
+
+label{display:block;font-size:.8rem;font-weight:600;color:var(--muted);margin:12px 0 6px}
+input[type=text],input[type=number],select{
+  width:100%;padding:12px 14px;border:1.5px solid var(--line);border-radius:12px;
+  font:inherit;background:#fff;color:var(--ink);min-height:var(--tap)}
+input:focus,select:focus{outline:2px solid #5eead4;outline-offset:1px;border-color:var(--accent)}
+
+.row{display:flex;gap:10px;flex-wrap:wrap}
 .row > *{flex:1;min-width:0}
-.chips{display:flex;flex-wrap:wrap;gap:8px;margin:8px 0}
-.chip{min-height:40px;padding:8px 12px;border-radius:999px;border:1px solid var(--line);
-  background:#fff;font:inherit;color:var(--ink);cursor:pointer}
+
+.chips{display:flex;flex-wrap:wrap;gap:10px;margin:4px 0 8px}
+.chip{min-height:44px;padding:10px 14px;border-radius:999px;border:1.5px solid var(--line);
+  background:#f8fafc;font:inherit;font-weight:600;color:var(--ink);cursor:pointer}
 .chip.active{background:var(--accent);color:#fff;border-color:var(--accent)}
-.btn{min-height:48px;padding:12px 16px;border:none;border-radius:12px;font:inherit;
-  font-weight:700;cursor:pointer;width:100%}
+
+.btn{min-height:var(--tap);padding:14px 18px;border:none;border-radius:14px;font:inherit;
+  font-weight:800;cursor:pointer;width:100%;letter-spacing:.02em}
 .btn-primary{background:var(--accent);color:#fff}
-.btn-primary:disabled{opacity:.5;cursor:not-allowed}
-.btn-ghost{background:#fff;border:1px solid var(--line);color:var(--ink);width:auto;padding:10px 14px}
-.btn-danger{background:#fff;border:1px solid #fecaca;color:var(--bad);width:auto;padding:8px 12px;min-height:40px}
-.list-item{display:grid;grid-template-columns:1fr 72px 44px;gap:8px;align-items:center;
-  padding:10px 0;border-bottom:1px solid var(--line)}
-.list-item:last-child{border-bottom:none}
-.list-item .name{font-weight:600;font-size:.95rem}
-.list-item .meta{font-size:.78rem;color:var(--muted)}
-.tag{display:inline-block;font-size:.72rem;padding:2px 8px;border-radius:999px;background:#ecfdf5;color:#065f46}
-.tag.gap{background:#fff7ed;color:#9a3412}
-.tag.opt{background:#f5f5f4;color:#57534e}
-.routes{display:flex;flex-direction:column;gap:12px}
-.route{border:1px solid var(--line);border-radius:12px;padding:12px;background:#fff}
-.route.hi{border-left:5px solid var(--hi)}
-.route.mid{border-left:5px solid var(--mid)}
-.route.lo{border-left:5px solid var(--lo)}
-.route.near{border-left:5px solid var(--near)}
-.route .head{display:flex;justify-content:space-between;gap:8px;align-items:flex-start}
-.route .kind{font-weight:800;font-size:1rem}
-.route .price{font-weight:800;font-size:1.15rem;white-space:nowrap}
-.route .sub{color:var(--muted);font-size:.85rem;margin-top:4px}
-.route ul{margin:8px 0 0;padding-left:18px;font-size:.9rem}
-.route .alt{margin-top:10px;padding-top:10px;border-top:1px dashed var(--line);font-size:.88rem}
-.badge{font-size:.72rem;font-weight:700;padding:3px 8px;border-radius:6px;background:#f5f5f4}
-.notice{font-size:.82rem;color:var(--muted);background:#fafaf9;border:1px dashed var(--line);
-  border-radius:10px;padding:10px;margin-top:8px}
-.notice strong{color:var(--accent2)}
-.footer{font-size:.78rem;color:var(--muted);padding:8px 2px 24px}
-.footer a{color:var(--accent)}
-.err{color:var(--bad);font-size:.9rem;margin:8px 0}
-.loading{color:var(--muted);padding:20px;text-align:center}
-.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);border:0}
-.compare{width:100%;border-collapse:collapse;font-size:.82rem;margin-top:8px}
-.compare th,.compare td{border-bottom:1px solid var(--line);padding:8px 6px;text-align:left;vertical-align:top}
-.compare th{color:var(--muted);font-weight:600}
+.btn-primary:disabled{opacity:.45;cursor:not-allowed}
+.btn-ghost{background:#f8fafc;border:1.5px solid var(--line);color:var(--ink);width:auto;padding:12px 14px}
+.btn-danger{background:#fff;border:1.5px solid #fecaca;color:#b91c1c;width:auto;
+  padding:10px 12px;min-height:44px;border-radius:12px;font-weight:700}
+
+.item{border:1.5px solid var(--line);border-radius:14px;padding:14px;margin:0 0 12px;background:#fbfdfe}
+.item:last-child{margin-bottom:0}
+.item .top{display:flex;justify-content:space-between;gap:10px;align-items:flex-start}
+.item .name{font-weight:800;font-size:1rem;margin:0}
+.item .meta{display:flex;flex-wrap:wrap;gap:6px;margin:8px 0 0}
+.item .controls{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:12px}
+.item .controls.three{grid-template-columns:1fr 72px 52px}
+.item .brand-note{margin-top:10px;font-size:.84rem;padding:10px 12px;border-radius:10px;
+  background:var(--warn-bg);color:var(--warn-ink);border:1px solid #fed7aa}
+
+.tag{display:inline-block;font-size:.72rem;font-weight:700;padding:3px 9px;border-radius:999px}
+.tag.ok{background:#ecfdf5;color:#065f46}
+.tag.gap{background:var(--gap-bg);color:var(--gap-ink)}
+.tag.opt{background:#f1f5f9;color:#475569}
+.tag.brand{background:#e0e7ff;color:#3730a3}
+.tag.miss{background:#fee2e2;color:#991b1b}
+
+.notice{font-size:.86rem;color:var(--muted);background:#f8fafc;border:1.5px dashed var(--line);
+  border-radius:12px;padding:12px 14px;margin-top:12px}
+.notice strong{color:#b45309}
+.notice.warn{background:var(--warn-bg);border-color:#fdba74;color:var(--warn-ink)}
+
+.routes{display:flex;flex-direction:column;gap:16px;margin-top:8px}
+.route{border:1.5px solid var(--line);border-radius:16px;padding:16px;background:#fff;
+  box-shadow:0 4px 14px rgba(15,23,42,.04)}
+.route.hi{border-left:6px solid var(--hi)}
+.route.mid{border-left:6px solid var(--mid)}
+.route.lo{border-left:6px solid var(--lo)}
+.route.near{border-left:6px solid var(--near)}
+.route .head{display:flex;justify-content:space-between;gap:12px;align-items:flex-start;margin-bottom:8px}
+.route .kind{font-weight:900;font-size:1.08rem}
+.route .price{font-weight:900;font-size:1.35rem;font-variant-numeric:tabular-nums;white-space:nowrap}
+.route .sub{color:var(--muted);font-size:.88rem;margin:2px 0 10px}
+.route ul{margin:10px 0 0;padding-left:1.15rem;font-size:.92rem}
+.route li{margin:6px 0}
+.route .alt{margin-top:14px;padding:12px;border-radius:12px;background:#f8fafc;border:1px solid var(--line)}
+.route .alt-title{font-weight:800;font-size:.86rem;margin:0 0 6px;color:var(--ink)}
+.badge{font-size:.72rem;font-weight:800;padding:3px 8px;border-radius:6px;background:#e2e8f0;margin-right:6px}
+.peers{margin-top:10px;padding:12px;border-radius:12px;background:#eef2ff;border:1px solid #c7d2fe;font-size:.88rem}
+.peers strong{display:block;margin-bottom:4px}
+.peers button.peer-btn{margin:6px 6px 0 0;min-height:40px;padding:8px 12px;border-radius:999px;
+  border:1.5px solid #a5b4fc;background:#fff;font:inherit;font-weight:700;cursor:pointer;color:#312e81}
+.peers button.later{border-color:#fcd34d;background:#fffbeb;color:#92400e}
+
+.compare{width:100%;border-collapse:separate;border-spacing:0;font-size:.84rem;margin-top:16px;
+  background:#fff;border:1.5px solid var(--line);border-radius:12px;overflow:hidden}
+.compare th,.compare td{padding:12px 10px;text-align:left;vertical-align:top;border-bottom:1px solid var(--line)}
+.compare tr:last-child td{border-bottom:none}
+.compare th{background:#f1f5f9;color:var(--muted);font-weight:700}
 .cov{font-variant-numeric:tabular-nums}
+
 details.more{margin-top:8px}
-details.more summary{cursor:pointer;color:var(--accent);font-size:.88rem;min-height:40px;display:flex;align-items:center}
+details.more summary{cursor:pointer;color:var(--accent);font-size:.9rem;font-weight:700;
+  min-height:40px;display:flex;align-items:center}
+
+.footer{font-size:.8rem;color:var(--muted);padding:8px 4px 28px}
+.footer a{color:var(--accent);font-weight:600}
+.err{color:#b91c1c;font-size:.92rem;margin:8px 0;font-weight:600}
+.loading{color:var(--muted);padding:24px 8px;text-align:center}
+.loc-status{font-size:.86rem;color:var(--muted);margin:10px 0 0}
 </style>
 </head>
 <body>
 <div class="wrap">
   <header class="app">
+    <div class="eyebrow">yogurt-routes v1.1</div>
     <h1>乳酪材料路線</h1>
-    <p>自製乳酪採購對照 · 消委會 OPW 參考價 · 非庫存保證</p>
+    <p class="lead">選品牌 → 四條採購路線對照。消委會 OPW 參考價 · 非庫存保證。</p>
   </header>
 
   <section class="card" aria-labelledby="loc-h">
-    <h2 id="loc-h">① 你的位置</h2>
+    <h2 id="loc-h">① 位置</h2>
+    <p class="step">點地區，或查地址／改座標。</p>
     <div class="chips" id="districtChips" role="listbox" aria-label="常用地區"></div>
-    <label for="addr">地址關鍵字（可選，用地政署 ALS 查座標）</label>
+    <label for="addr">地址關鍵字（可選）</label>
     <div class="row">
-      <input id="addr" type="text" placeholder="例如：銅鑼灣時代廣場／旺角朗豪坊" autocomplete="street-address">
+      <input id="addr" type="text" placeholder="例如：銅鑼灣時代廣場" autocomplete="street-address">
       <button type="button" class="btn-ghost" id="btnGeocode" style="flex:0 0 auto">查座標</button>
     </div>
     <div class="row">
@@ -102,11 +143,12 @@ details.more summary{cursor:pointer;color:var(--accent);font-size:.88rem;min-hei
         <input id="lng" type="number" step="0.0001" value="114.1830">
       </div>
     </div>
-    <p class="notice" id="locStatus">預設：銅鑼灣／灣仔。可點地區或查地址。</p>
+    <p class="loc-status" id="locStatus">預設：銅鑼灣／灣仔</p>
   </section>
 
   <section class="card" aria-labelledby="list-h">
-    <h2 id="list-h">② 材料清單（可編輯）</h2>
+    <h2 id="list-h">② 材料與品牌</h2>
+    <p class="step">每項可指定品牌；無 OPW 價會提示同級替代或「改天再買」。</p>
     <div id="ingredientList"></div>
     <label for="addRole">加入材料</label>
     <div class="row">
@@ -117,18 +159,20 @@ details.more summary{cursor:pointer;color:var(--accent);font-size:.88rem;min-hei
 
   <section class="card">
     <button type="button" class="btn btn-primary" id="btnGo">計算四條採購路線</button>
-    <p class="notice"><strong>重要：</strong>以下為監察<strong>參考價</strong>與示範門市距離，<strong>不保證</strong>門市有貨或價格相同。缺口材料會標示「暫無公開參考價」，不會虛構價格。</p>
+    <p class="notice"><strong>重要：</strong>金額為監察<strong>參考價</strong>合計；替代品牌與「改天再買」只是<strong>建議</strong>，<strong>不代表</strong>門市有貨或缺貨。</p>
   </section>
 
   <section class="card" aria-labelledby="out-h">
     <h2 id="out-h">③ 路線對照</h2>
-    <div id="results" class="loading">按上方按鈕後顯示高價／中價／低價／方便四線。</div>
+    <p class="step">高價／中價／低價／方便 · 可展開次優替代</p>
+    <div id="brandAlerts"></div>
+    <div id="results" class="loading">載入資料後會自動試算；亦可按上方按鈕重算。</div>
   </section>
 
   <footer class="footer">
     <p id="attr"></p>
-    <p>距離：示範門市座標（人手整理）＋可選<a href="https://www.als.gov.hk/" target="_blank" rel="noopener">地政總署地理地址</a>查詢。超市網站未有爬取。</p>
-    <p>yogurt-routes v1 · 路徑 A（OPW）</p>
+    <p>距離：示範門市座標＋可選<a href="https://www.als.gov.hk/" target="_blank" rel="noopener">地政總署</a>查詢。未爬取超市網站。</p>
+    <p>yogurt-routes v1.1 · 路徑 A（OPW＋品牌）</p>
   </footer>
 </div>
 <script src="./app.js"></script>

@@ -4,7 +4,7 @@
   "dataGovHint": "DATA.GOV.HK / 消費者委員會",
   "attribution": "參考價來自消費者委員會「網上價格監察站／格價資訊通」（OPW）開放數據，亦可經 DATA.GOV.HK 取得。價格為監察參考，不代表門市即時有貨或最終成交價。",
   "dataAsOf": "2026-10-11 13:00 HKT",
-  "extractedAt": "2026-10-12 HKT",
+  "extractedAt": "2026-10-12 HKT (v1.1 brands)",
   "roles": [
     {
       "id": "milk_fresh",
@@ -740,6 +740,106 @@
           "minPrice": 29.9,
           "maxPrice": 29.9
         }
+      ],
+      "brands": [
+        {
+          "name": "雀巢牛奶公司",
+          "count": 2,
+          "inOpw": true,
+          "tier": "fresh_milk_value"
+        },
+        {
+          "name": "十字牌 十字奶",
+          "count": 2,
+          "inOpw": true,
+          "tier": "fresh_milk_premium"
+        },
+        {
+          "name": "每日鮮語",
+          "count": 2,
+          "inOpw": true,
+          "tier": "fresh_milk_premium"
+        },
+        {
+          "name": "Kumiai Dairies",
+          "count": 2,
+          "inOpw": true,
+          "tier": "fresh_milk_value"
+        },
+        {
+          "name": "明治",
+          "count": 6,
+          "inOpw": true,
+          "tier": "fresh_milk_premium"
+        },
+        {
+          "name": "伊美",
+          "count": 2,
+          "inOpw": true,
+          "tier": "fresh_milk_premium"
+        },
+        {
+          "name": "Rakunou Mothers (Kumamoto Dairy)",
+          "count": 1,
+          "inOpw": true,
+          "tier": "fresh_milk_value"
+        },
+        {
+          "name": "保利",
+          "count": 1,
+          "inOpw": true,
+          "tier": "fresh_milk_value"
+        },
+        {
+          "name": "黑白純牛奶",
+          "count": 1,
+          "inOpw": true,
+          "tier": "fresh_milk_value"
+        },
+        {
+          "name": "澳洲哈維",
+          "count": 2,
+          "inOpw": true,
+          "tier": "fresh_milk_premium"
+        },
+        {
+          "name": "北海道日高",
+          "count": 1,
+          "inOpw": true,
+          "tier": "fresh_milk_premium"
+        },
+        {
+          "name": "Meadows",
+          "count": 1,
+          "inOpw": true,
+          "tier": "fresh_milk_premium"
+        },
+        {
+          "name": "維記",
+          "count": 1,
+          "inOpw": true,
+          "tier": "fresh_milk_value"
+        },
+        {
+          "name": "蘭特",
+          "count": 1,
+          "inOpw": true,
+          "tier": "fresh_milk_value"
+        },
+        {
+          "name": "無印良品 MUJI",
+          "count": 0,
+          "inOpw": false,
+          "tier": "fresh_milk_premium",
+          "note": "OPW 目前無此品牌牛奶參考價"
+        },
+        {
+          "name": "a2",
+          "count": 0,
+          "inOpw": false,
+          "tier": "fresh_milk_premium",
+          "note": "OPW 目前無此品牌參考價"
+        }
       ]
     },
     {
@@ -1276,6 +1376,69 @@
           "minPrice": 45.0,
           "maxPrice": 90.0
         }
+      ],
+      "brands": [
+        {
+          "name": "雀巢牛奶公司",
+          "count": 4,
+          "inOpw": true,
+          "tier": "fresh_milk_value"
+        },
+        {
+          "name": "維他",
+          "count": 3,
+          "inOpw": true,
+          "tier": "fresh_milk_value"
+        },
+        {
+          "name": "明治",
+          "count": 2,
+          "inOpw": true,
+          "tier": "fresh_milk_premium"
+        },
+        {
+          "name": "保利",
+          "count": 4,
+          "inOpw": true,
+          "tier": "fresh_milk_value"
+        },
+        {
+          "name": "澳洲哈維",
+          "count": 1,
+          "inOpw": true,
+          "tier": "fresh_milk_premium"
+        },
+        {
+          "name": "Meadows",
+          "count": 3,
+          "inOpw": true,
+          "tier": "fresh_milk_premium"
+        },
+        {
+          "name": "維記",
+          "count": 1,
+          "inOpw": true,
+          "tier": "fresh_milk_value"
+        },
+        {
+          "name": "子母",
+          "count": 1,
+          "inOpw": true,
+          "tier": "fresh_milk_value"
+        },
+        {
+          "name": "蒙牛",
+          "count": 1,
+          "inOpw": true,
+          "tier": "fresh_milk_value"
+        },
+        {
+          "name": "無印良品 MUJI",
+          "count": 0,
+          "inOpw": false,
+          "tier": "fresh_milk_premium",
+          "note": "OPW 目前無此品牌牛奶參考價"
+        }
       ]
     },
     {
@@ -1423,6 +1586,59 @@
           ],
           "minPrice": 69.9,
           "maxPrice": 69.9
+        }
+      ],
+      "brands": [
+        {
+          "name": "雀巢牛奶公司",
+          "count": 2,
+          "inOpw": true,
+          "tier": "greek_premium"
+        },
+        {
+          "name": "雀巢",
+          "count": 1,
+          "inOpw": true,
+          "tier": "greek_premium"
+        },
+        {
+          "name": "Yeo Valley",
+          "count": 1,
+          "inOpw": true,
+          "tier": "greek_premium"
+        },
+        {
+          "name": "澳洲農協",
+          "count": 1,
+          "inOpw": true,
+          "tier": "greek_premium"
+        },
+        {
+          "name": "Bulla",
+          "count": 1,
+          "inOpw": true,
+          "tier": "greek_premium"
+        },
+        {
+          "name": "Fage",
+          "count": 0,
+          "inOpw": false,
+          "tier": "greek_premium",
+          "note": "OPW 目前無此品牌參考價"
+        },
+        {
+          "name": "Super Spoon",
+          "count": 0,
+          "inOpw": false,
+          "tier": "greek_premium",
+          "note": "OPW 目前無此品牌參考價"
+        },
+        {
+          "name": "Chobani",
+          "count": 0,
+          "inOpw": false,
+          "tier": "greek_premium",
+          "note": "OPW 目前無此品牌參考價"
         }
       ]
     },
@@ -1628,6 +1844,40 @@
           ],
           "minPrice": 93.0,
           "maxPrice": 95.0
+        }
+      ],
+      "brands": [
+        {
+          "name": "雀巢牛奶公司",
+          "count": 1,
+          "inOpw": true,
+          "tier": "fruit_yogurt"
+        },
+        {
+          "name": "伊美",
+          "count": 3,
+          "inOpw": true,
+          "tier": "fruit_yogurt"
+        },
+        {
+          "name": "明治",
+          "count": 3,
+          "inOpw": true,
+          "tier": "fruit_yogurt"
+        },
+        {
+          "name": "Fage",
+          "count": 0,
+          "inOpw": false,
+          "tier": "greek_premium",
+          "note": "OPW 目前無此品牌參考價"
+        },
+        {
+          "name": "Chobani",
+          "count": 0,
+          "inOpw": false,
+          "tier": "fruit_yogurt",
+          "note": "OPW 目前無此品牌參考價"
         }
       ]
     },
@@ -2240,6 +2490,75 @@
           "minPrice": 108.0,
           "maxPrice": 128.0
         }
+      ],
+      "brands": [
+        {
+          "name": "囍 (雙喜)",
+          "count": 1,
+          "inOpw": true,
+          "tier": "honey_value"
+        },
+        {
+          "name": "法國蜜月",
+          "count": 3,
+          "inOpw": true,
+          "tier": "honey_premium"
+        },
+        {
+          "name": "蘭絲",
+          "count": 4,
+          "inOpw": true,
+          "tier": "honey_value"
+        },
+        {
+          "name": "Meadows",
+          "count": 2,
+          "inOpw": true,
+          "tier": "honey_value"
+        },
+        {
+          "name": "佳之選",
+          "count": 2,
+          "inOpw": true,
+          "tier": "honey_value"
+        },
+        {
+          "name": "寶生園 真蜜",
+          "count": 7,
+          "inOpw": true,
+          "tier": "honey_value"
+        },
+        {
+          "name": "加比蘭奴",
+          "count": 2,
+          "inOpw": true,
+          "tier": "honey_premium"
+        },
+        {
+          "name": "Naturoney",
+          "count": 2,
+          "inOpw": true,
+          "tier": "honey_premium"
+        },
+        {
+          "name": "Glenugie Peak Organics",
+          "count": 1,
+          "inOpw": true,
+          "tier": "honey_premium"
+        },
+        {
+          "name": "愛比素",
+          "count": 1,
+          "inOpw": true,
+          "tier": "honey_premium"
+        },
+        {
+          "name": "Manuka",
+          "count": 0,
+          "inOpw": false,
+          "tier": "honey_premium",
+          "note": "OPW 子集未收錄麥盧卡專項時標無價"
+        }
       ]
     },
     {
@@ -2558,6 +2877,44 @@
           ],
           "minPrice": 29.0,
           "maxPrice": 30.0
+        }
+      ],
+      "brands": [
+        {
+          "name": "Meadows",
+          "count": 4,
+          "inOpw": true,
+          "tier": "sugar_staple"
+        },
+        {
+          "name": "太古",
+          "count": 4,
+          "inOpw": true,
+          "tier": "sugar_staple"
+        },
+        {
+          "name": "金御膳",
+          "count": 2,
+          "inOpw": true,
+          "tier": "sugar_staple"
+        },
+        {
+          "name": "珠江橋牌",
+          "count": 2,
+          "inOpw": true,
+          "tier": "sugar_staple"
+        },
+        {
+          "name": "佳之選",
+          "count": 1,
+          "inOpw": true,
+          "tier": "sugar_staple"
+        },
+        {
+          "name": "白雪",
+          "count": 1,
+          "inOpw": true,
+          "tier": "sugar_staple"
         }
       ]
     },
@@ -3140,6 +3497,50 @@
           "minPrice": 20.0,
           "maxPrice": 23.0
         }
+      ],
+      "brands": [
+        {
+          "name": "百福",
+          "count": 3,
+          "inOpw": true,
+          "tier": "soymilk_staple"
+        },
+        {
+          "name": "維他奶 山水",
+          "count": 5,
+          "inOpw": true,
+          "tier": "soymilk_staple"
+        },
+        {
+          "name": "大和",
+          "count": 1,
+          "inOpw": true,
+          "tier": "soymilk_staple"
+        },
+        {
+          "name": "維他奶",
+          "count": 7,
+          "inOpw": true,
+          "tier": "soymilk_staple"
+        },
+        {
+          "name": "維記",
+          "count": 1,
+          "inOpw": true,
+          "tier": "soymilk_staple"
+        },
+        {
+          "name": "維他",
+          "count": 2,
+          "inOpw": true,
+          "tier": "soymilk_staple"
+        },
+        {
+          "name": "大排檔",
+          "count": 1,
+          "inOpw": true,
+          "tier": "soymilk_staple"
+        }
       ]
     }
   ],
@@ -3401,31 +3802,145 @@
       "role": "milk_fresh",
       "label": "鮮牛奶（約 1L）",
       "qty": 1,
-      "optional": false
+      "optional": false,
+      "brand": ""
     },
     {
       "role": "yogurt_plain",
       "label": "原味／希臘式乳酪（菌種）",
       "qty": 1,
-      "optional": false
+      "optional": false,
+      "brand": ""
     },
     {
       "role": "honey",
       "label": "蜜糖",
       "qty": 1,
-      "optional": true
+      "optional": true,
+      "brand": ""
     },
     {
       "role": "gap:oat_milk",
       "label": "燕麥奶",
       "qty": 1,
-      "optional": true
+      "optional": true,
+      "brand": ""
     },
     {
       "role": "gap:frozen_berries",
       "label": "急凍雜莓",
       "qty": 1,
-      "optional": true
+      "optional": true,
+      "brand": ""
     }
-  ]
+  ],
+  "peerTiers": {
+    "greek_premium": {
+      "label": "希臘式／厚乳酪 · 同級",
+      "brands": [
+        "Fage",
+        "Super Spoon",
+        "Chobani",
+        "Bulla",
+        "Yeo Valley",
+        "澳洲農協",
+        "雀巢",
+        "雀巢牛奶公司"
+      ],
+      "hint": "偏厚身／希臘式取向；僅作品牌層級建議，非口味保證。"
+    },
+    "fruit_yogurt": {
+      "label": "水果乳酪 · 同級",
+      "brands": [
+        "Chobani",
+        "明治",
+        "伊美",
+        "雀巢牛奶公司"
+      ],
+      "hint": "常見水果乳酪層級建議。"
+    },
+    "fresh_milk_premium": {
+      "label": "鮮奶 · 較高檔／特色",
+      "brands": [
+        "無印良品 MUJI",
+        "a2",
+        "明治",
+        "每日鮮語",
+        "十字牌 十字奶",
+        "澳洲哈維",
+        "北海道日高",
+        "Meadows",
+        "伊美"
+      ],
+      "hint": "較常被視為特色或較高單價鮮奶；MUJI／a2 若無 OPW 價則只作同級提示。"
+    },
+    "fresh_milk_value": {
+      "label": "鮮奶 · 常用價位",
+      "brands": [
+        "雀巢牛奶公司",
+        "保利",
+        "維記",
+        "黑白純牛奶",
+        "蘭特"
+      ],
+      "hint": "常見超市鮮奶價位帶。"
+    },
+    "honey_premium": {
+      "label": "蜂蜜 · 較高檔",
+      "brands": [
+        "Manuka",
+        "Glenugie Peak Organics",
+        "Naturoney",
+        "法國蜜月",
+        "加比蘭奴",
+        "愛比素"
+      ],
+      "hint": "進口／特色蜜取向建議。"
+    },
+    "honey_value": {
+      "label": "蜂蜜 · 常用價位",
+      "brands": [
+        "寶生園 真蜜",
+        "蘭絲",
+        "Meadows",
+        "佳之選"
+      ],
+      "hint": "超市常見蜜糖價位帶。"
+    },
+    "sugar_staple": {
+      "label": "砂糖 · 常用",
+      "brands": [
+        "太古",
+        "Meadows",
+        "金御膳",
+        "珠江橋牌",
+        "佳之選",
+        "白雪"
+      ],
+      "hint": "煮食糖常用品牌。"
+    },
+    "soymilk_staple": {
+      "label": "豆漿／豆奶 · 常用",
+      "brands": [
+        "維他奶",
+        "維他奶 山水",
+        "百福",
+        "維他",
+        "大和",
+        "維記",
+        "大排檔"
+      ],
+      "hint": "本地常見豆奶品牌。"
+    }
+  },
+  "brandPolicy": {
+    "version": "1.1",
+    "rules": [
+      "使用者可為每項材料指定品牌，或選「不限品牌」。",
+      "若指定品牌在 OPW 子集有商品與價格 → 優先用該品牌商品計路線。",
+      "若指定品牌無 OPW 參考價 → 標示「暫無此品牌公開參考價」，並列同級（peer tier）內有價品牌作建議替代；另提供「改天再買」。",
+      "同級替代與「改天再買」皆為建議，不代表門市有貨或缺貨狀態。"
+    ]
+  },
+  "version": "1.1"
 }

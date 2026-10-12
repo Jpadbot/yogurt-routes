@@ -32,3 +32,20 @@
 ## UI／發佈
 - Phone-first；viewport **不**鎖縮放（`width=device-width, initial-scale=1, viewport-fit=cover`）。
 - 靜態頁：`index.html` + `app.js` + `data/opw-subset.json` + `.nojekyll`。
+
+---
+
+# v1.1（2026-10-12）— 品牌選擇與介面
+
+## 品牌
+- 每項材料可選「不限品牌」或角色內品牌清單（含 OPW 有價＋使用者常問但 OPW 無價者，如 Fage、Super Spoon、Chobani、無印良品 MUJI）。
+- **有 OPW 價**：优先用該品牌商品進入四路線合計。
+- **無 OPW 價**：標「暫無此品牌公開參考價」；依 `peerTiers` 給同級有價品牌按鈕；路線可暫以第一個有價同級計價並標「建議代替」；另有「改天再買」把該項改為可選、不擋必買覆蓋。
+- 同級與改天再買皆為**建議**，不代表即時庫存。
+
+## 介面
+- 加大間距與對比；材料改卡片式；路線卡左邊色條＋更大總價；品牌警示獨立區塊。
+- Viewport 仍不鎖縮放。
+
+## 預設示範清單
+- 鮮奶預選「明治」（OPW 有價）；原味乳酪預選「Fage」（OPW 無價 → 觸發同級／改天再買）。
