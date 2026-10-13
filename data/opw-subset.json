@@ -3,8 +3,8 @@
   "sourceUrl": "https://online-price-watch.consumer.org.hk/opw/opendata/pricewatch.json",
   "dataGovHint": "DATA.GOV.HK / 消費者委員會",
   "attribution": "參考價來自消費者委員會「網上價格監察站／格價資訊通」（OPW）開放數據，亦可經 DATA.GOV.HK 取得。價格為監察參考，不代表門市即時有貨或最終成交價。",
-  "dataAsOf": "2026-10-12 13:00 HKT",
-  "extractedAt": "2026-10-12 HKT (OPW daily refresh)",
+  "dataAsOf": "2026-10-13 13:00 HKT",
+  "extractedAt": "2026-10-13 HKT (OPW daily refresh)",
   "roles": [
     {
       "id": "milk_fresh",
