@@ -3,8 +3,8 @@
   "sourceUrl": "https://online-price-watch.consumer.org.hk/opw/opendata/pricewatch.json",
   "dataGovHint": "DATA.GOV.HK / 消費者委員會",
   "attribution": "參考價來自消費者委員會「網上價格監察站／格價資訊通」（OPW）開放數據，亦可經 DATA.GOV.HK 取得。價格為監察參考，不代表門市即時有貨或最終成交價。",
-  "dataAsOf": "2026-10-13 13:00 HKT",
-  "extractedAt": "2026-10-13 HKT (OPW daily refresh)",
+  "dataAsOf": "2026-10-14 13:00 HKT",
+  "extractedAt": "2026-10-14 HKT (OPW daily refresh)",
   "roles": [
     {
       "id": "milk_fresh",
@@ -868,9 +868,14 @@
               "supermarketCode": "JASONS",
               "store": "Jason's",
               "price": 6.0
+            },
+            {
+              "supermarketCode": "AEON",
+              "store": "AEON",
+              "price": 5.9
             }
           ],
-          "minPrice": 6.0,
+          "minPrice": 5.9,
           "maxPrice": 7.5
         },
         {
@@ -895,9 +900,14 @@
               "supermarketCode": "JASONS",
               "store": "Jason's",
               "price": 6.0
+            },
+            {
+              "supermarketCode": "AEON",
+              "store": "AEON",
+              "price": 5.9
             }
           ],
-          "minPrice": 6.0,
+          "minPrice": 5.9,
           "maxPrice": 7.5
         },
         {
@@ -1018,6 +1028,11 @@
               "supermarketCode": "JASONS",
               "store": "Jason's",
               "price": 25.5
+            },
+            {
+              "supermarketCode": "AEON",
+              "store": "AEON",
+              "price": 19.9
             }
           ],
           "minPrice": 18.0,
@@ -2463,9 +2478,14 @@
               "supermarketCode": "JASONS",
               "store": "Jason's",
               "price": 109.0
+            },
+            {
+              "supermarketCode": "AEON",
+              "store": "AEON",
+              "price": 98.0
             }
           ],
-          "minPrice": 103.0,
+          "minPrice": 98.0,
           "maxPrice": 109.0
         },
         {
@@ -2943,10 +2963,10 @@
             {
               "supermarketCode": "AEON",
               "store": "AEON",
-              "price": 4.5
+              "price": 3.0
             }
           ],
-          "minPrice": 4.5,
+          "minPrice": 3.0,
           "maxPrice": 6.0
         },
         {
@@ -3051,10 +3071,10 @@
             {
               "supermarketCode": "AEON",
               "store": "AEON",
-              "price": 6.9
+              "price": 5.0
             }
           ],
-          "minPrice": 6.9,
+          "minPrice": 5.0,
           "maxPrice": 9.0
         },
         {
@@ -3378,8 +3398,13 @@
               "price": 23.0
             },
             {
+              "supermarketCode": "AEON",
+              "store": "AEON",
+              "price": 22.9
+            },
+            {
               "supermarketCode": "WATSONS",
-              "store": "屈臣氏",
+              "store": "WATSONS",
               "price": 20.0
             }
           ],

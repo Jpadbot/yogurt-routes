@@ -6,8 +6,8 @@
 
 ## OPW 資料
 - 來源 URL：`https://online-price-watch.consumer.org.hk/opw/opendata/pricewatch.json`
-- HTTP `Last-Modified`：`Tue, 13 Oct 2026 05:00:01 GMT` → **資料時效標示：2026-10-13 13:00 HKT**
-- 本機擷取：2026-10-13 HKT（每日刷新）→ `data/opw-subset.json`（乳酪相關角色子集，非整庫約 2.7MB）；保留 v1.1 品牌／peerTiers，只同步 `prices`
+- HTTP `Last-Modified`：`Wed, 14 Oct 2026 05:00:01 GMT` → **資料時效標示：2026-10-14 13:00 HKT**
+- 本機擷取：2026-10-14 HKT（每日刷新）→ `data/opw-subset.json`（乳酪相關角色子集，非整庫約 2.7MB）；保留 v1.1 品牌／peerTiers，只同步 `prices`
 - 署名：消費者委員會格價資訊通（OPW）／DATA.GOV.HK
 
 ## 材料對應邏輯
@@ -50,6 +50,17 @@
 ## 預設示範清單
 - 鮮奶預選「明治」（OPW 有價）；原味乳酪預選「Fage」（OPW 無價 → 觸發同級／改天再買）。
 
+
+## OPW 每日刷新 2026-10-14
+- 同步公開 `pricewatch.json`（HTTP Last-Modified：`Wed, 14 Oct 2026 05:00:01 GMT` → **資料時效：2026-10-14 13:00 HKT**）
+- 117 個既有 SKU 對碼核對價格；**7 項變價**：
+  - P000000905 雀巢牛奶公司 脫脂高鈣牛奶飲品 236毫升 AEON None->5.9
+  - P000000632 雀巢牛奶公司 高鈣低脂牛奶飲品 236毫升 AEON None->5.9
+  - P000000888 雀巢牛奶公司 高鈣低脂牛奶飲品 946毫升 AEON None->19.9
+  - P000001511 蘭絲 槐花蜂蜜 Acacia 375克 AEON None->98.0
+  - P000000922 百福 鮮豆漿 - 高鈣香滑 236 毫升 AEON 4.5->3.0
+  - P000001292 大和 豆漿 (原味) 408毫升 AEON 6.9->5.0
+  - P000001260 維他奶 豆奶 - 低糖 250毫升 x 6 AEON None->22.9
 
 ## OPW 每日刷新 2026-10-13
 - 同步公開 `pricewatch.json`（HTTP Last-Modified：`Tue, 13 Oct 2026 05:00:01 GMT` → **資料時效：2026-10-13 13:00 HKT**）
